@@ -12,7 +12,7 @@ fn main() {
         spawn(proc() {
             for _ in range(0u, NUM_INCREMENTS) {
                 let value = counter.load(SeqCst);
-                counter.store(value + 1, SeqCst)
+                counter.fetch_add(1, SeqCst)
             }
             tx.send(());
         })
