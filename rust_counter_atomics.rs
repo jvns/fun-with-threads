@@ -11,8 +11,7 @@ fn main() {
         let (counter, tx) = (counter.clone(), tx.clone());
         spawn(proc() {
             for _ in range(0u, NUM_INCREMENTS) {
-                let value = counter.load(SeqCst);
-                counter.fetch_add(1, SeqCst)
+                counter.fetch_add(1, SeqCst);
             }
             tx.send(());
         })
