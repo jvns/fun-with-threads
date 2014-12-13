@@ -1,6 +1,6 @@
 use std::sync::{Arc, Mutex};
 const NUM_THREADS: uint = 20;
-const NUM_INCREMENTS: uint = 100000u;
+const NUM_INCREMENTS: uint = 10000000u;
 
 fn main() {
     let data = Arc::new(Mutex::new(0u));

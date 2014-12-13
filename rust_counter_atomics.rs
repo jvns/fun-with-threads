@@ -1,5 +1,5 @@
 use std::sync::Arc;
-use std::sync::atomic::{AtomicUint, SeqCst};
+use std::sync::atomic::{AtomicUint, Relaxed};
 
 const NUM_THREADS: uint = 20;
 const NUM_INCREMENTS: uint = 100000u;
@@ -11,7 +11,7 @@ fn main() {
         let (counter, tx) = (counter.clone(), tx.clone());
         spawn(proc() {
             for _ in range(0u, NUM_INCREMENTS) {
-                counter.fetch_add(1, SeqCst);
+                counter.fetch_add(1, Relaxed)
             }
             tx.send(());
         })

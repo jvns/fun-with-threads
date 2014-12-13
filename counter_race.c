@@ -7,7 +7,7 @@ int counter;
 
 void *AddThings(void *threadid)
 {
-   for (int i = 0; i < 100000; i++)
+   for (int i = 0; i < 10000000; i++)
         counter += 1;
    pthread_exit(NULL);
 }

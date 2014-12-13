@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define NUM_THREADS     20
-#define NUM_INCREMENTS  100000
+#define NUM_INCREMENTS  10000000
 
 int counter;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
