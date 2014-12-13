@@ -5,17 +5,10 @@
 
 int counter;
 
-void *increment(int amount) {
-    // Oh no this is a race!
-    counter += amount;
-}
-
 void *AddThings(void *threadid)
 {
-   for (int i = 0; i < 100000; i++) {
-       increment(1);
-   }
-   printf("Hello World! It's me, thread #%ld! I'm done.\n", (long)threadid);
+   for (int i = 0; i < 100000; i++)
+        counter += 1;
    pthread_exit(NULL);
 }
 
