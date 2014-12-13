@@ -12,14 +12,9 @@ fn main() {
               for _ in range(0u, NUM_INCREMENTS) {
                   let mut d = data.lock();
                   *d += 1;
-              }
-              tx.send(());
-              }
-              )
+              } tx.send(()); })
     }
-    for _ in range(0u, NUM_THREADS) {
-        rx.recv();
-    }
+    for _ in range(0u, NUM_THREADS) { rx.recv(); }
     let d = data.lock();
     println!("{}" , * d);
 }
