@@ -15,7 +15,8 @@ fn main() {
             tx.send(());
         })
     }
+    // Wait for threads to finish
     for _ in range(0u, NUM_THREADS) { rx.recv(); }
     let d = data.lock();
-    println!("{}" , * d);
+    println!("{}" , *d);
 }
