@@ -20,6 +20,7 @@ void *AddThings(void *threadid)
 
 int main (int argc, char *argv[])
 {
+   pthread_spin_unlock(&spinlock);
    pthread_t threads[NUM_THREADS];
    long t;
    for(t=0; t<NUM_THREADS; t++){
