@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define NUM_THREADS     20
+#define NUM_INCREMENTS  100000
 
 int counter;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
@@ -14,7 +15,7 @@ void *AddThings(void *threadid)
 {
    long tid;
    int i;
-   for (i = 0; i < 100000; i++) {
+   for (i = 0; i < NUM_INCREMENTS; i++) {
        pthread_mutex_lock(&mutex);
        increment(1);
        pthread_mutex_unlock(&mutex);
