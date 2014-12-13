@@ -1,0 +1,1823 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="2082" onload="init(evt)" viewBox="0 0 1200 2082" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details;
+	function init(evt) { details = document.getElementById("details").firstChild; }
+	function s(info) { details.nodeValue = "Function: " + info; }
+	function c() { details.nodeValue = ' '; }
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="2082.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10" y="2065" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1601" width="6.4" height="15.0" fill="rgb(237,80,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_mutex_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>pthread_mutex_lock (1 samples, 0.02%)</title><rect x="24.7" y="2017" width="0.3" height="15.0" fill="rgb(229,162,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('enqueue_sleeper (8 samples, 0.17%)')" onmouseout="c()">
+<title>enqueue_sleeper (8 samples, 0.17%)</title><rect x="1020.7" y="1777" width="2.0" height="15.0" fill="rgb(230,16,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_process_times (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_process_times (1 samples, 0.02%)</title><rect x="408.7" y="1825" width="0.3" height="15.0" fill="rgb(245,142,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_out (1 samples, 0.02%)')" onmouseout="c()">
+<title>__perf_event_task_sched_out (1 samples, 0.02%)</title><rect x="24.7" y="1937" width="0.3" height="15.0" fill="rgb(206,104,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_single_vma (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_single_vma (1 samples, 0.02%)</title><rect x="18.6" y="1809" width="0.2" height="15.0" fill="rgb(247,59,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1841" width="6.4" height="15.0" fill="rgb(251,40,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (5 samples, 0.10%)')" onmouseout="c()">
+<title>__ticket_spin_lock (5 samples, 0.10%)</title><rect x="229.6" y="1809" width="1.3" height="15.0" fill="rgb(205,222,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule (1 samples, 0.02%)')" onmouseout="c()">
+<title>schedule (1 samples, 0.02%)</title><rect x="22.8" y="1985" width="0.2" height="15.0" fill="rgb(218,112,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1665" width="6.4" height="15.0" fill="rgb(206,148,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="801" width="6.4" height="15.0" fill="rgb(216,28,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1409" width="6.4" height="15.0" fill="rgb(220,22,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1425" width="6.4" height="15.0" fill="rgb(205,13,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('group_balance_cpu (1 samples, 0.02%)')" onmouseout="c()">
+<title>group_balance_cpu (1 samples, 0.02%)</title><rect x="901.6" y="1729" width="0.2" height="15.0" fill="rgb(236,207,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1153" width="6.4" height="15.0" fill="rgb(240,168,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dequeue_task (114 samples, 2.37%)')" onmouseout="c()">
+<title>dequeue_task (114 samples, 2.37%)</title><rect x="155.9" y="1857" width="28.0" height="15.0" fill="rgb(224,0,6)" rx="2" ry="2" />
+<text text-anchor="" x="158.933791380387" y="1867.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >d..</text>
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (1,411 samples, 29.38%)')" onmouseout="c()">
+<title>__ticket_spin_lock (1,411 samples, 29.38%)</title><rect x="554.9" y="1905" width="346.7" height="15.0" fill="rgb(212,104,26)" rx="2" ry="2" />
+<text text-anchor="" x="557.9177597335" y="1915.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__ticket_spin_lock</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="385" width="6.4" height="15.0" fill="rgb(214,225,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_munmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>sys_munmap (1 samples, 0.02%)</title><rect x="15.4" y="145" width="0.3" height="15.0" fill="rgb(228,97,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('cpuacct_charge (11 samples, 0.23%)')" onmouseout="c()">
+<title>cpuacct_charge (11 samples, 0.23%)</title><rect x="1032.8" y="1761" width="2.7" height="15.0" fill="rgb(224,175,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_do_wakeup (14 samples, 0.29%)')" onmouseout="c()">
+<title>ttwu_do_wakeup (14 samples, 0.29%)</title><rect x="1038.7" y="1841" width="3.4" height="15.0" fill="rgb(227,214,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__rb_erase_color (8 samples, 0.17%)')" onmouseout="c()">
+<title>__rb_erase_color (8 samples, 0.17%)</title><rect x="238.7" y="1825" width="2.0" height="15.0" fill="rgb(244,73,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sysret_check (8 samples, 0.17%)')" onmouseout="c()">
+<title>sysret_check (8 samples, 0.17%)</title><rect x="478.3" y="1985" width="1.9" height="15.0" fill="rgb(214,198,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1889" width="6.4" height="15.0" fill="rgb(215,1,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dup_task_struct (1 samples, 0.02%)')" onmouseout="c()">
+<title>dup_task_struct (1 samples, 0.02%)</title><rect x="10.7" y="49" width="0.3" height="15.0" fill="rgb(252,64,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__GI___mprotect (4 samples, 0.08%)')" onmouseout="c()">
+<title>__GI___mprotect (4 samples, 0.08%)</title><rect x="16.4" y="2001" width="1.0" height="15.0" fill="rgb(206,207,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('set_next_entity (1 samples, 0.02%)')" onmouseout="c()">
+<title>set_next_entity (1 samples, 0.02%)</title><rect x="249.5" y="1873" width="0.3" height="15.0" fill="rgb(223,78,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__do_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>__do_softirq (1 samples, 0.02%)</title><rect x="15.9" y="113" width="0.2" height="15.0" fill="rgb(212,199,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_mutex_unlock (204 samples, 4.25%)')" onmouseout="c()">
+<title>pthread_mutex_unlock (204 samples, 4.25%)</title><rect x="1139.4" y="2001" width="50.1" height="15.0" fill="rgb(228,3,31)" rx="2" ry="2" />
+<text text-anchor="" x="1142.38996460545" y="2011.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >pthre..</text>
+</g>
+<g class="func_g" onmouseover="s('enqueue_task_fair (88 samples, 1.83%)')" onmouseout="c()">
+<title>enqueue_task_fair (88 samples, 1.83%)</title><rect x="1014.8" y="1809" width="21.7" height="15.0" fill="rgb(216,32,46)" rx="2" ry="2" />
+<text text-anchor="" x="1017.83031438684" y="1819.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >e..</text>
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_lock (1 samples, 0.02%)</title><rect x="984.9" y="1857" width="0.2" height="15.0" fill="rgb(208,197,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pipe_read (6 samples, 0.12%)')" onmouseout="c()">
+<title>pipe_read (6 samples, 0.12%)</title><rect x="21.1" y="1873" width="1.4" height="15.0" fill="rgb(220,142,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('lg_local_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>lg_local_lock (1 samples, 0.02%)</title><rect x="19.1" y="1713" width="0.2" height="15.0" fill="rgb(228,17,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call (47 samples, 0.98%)')" onmouseout="c()">
+<title>system_call (47 samples, 0.98%)</title><rect x="480.2" y="1985" width="11.6" height="15.0" fill="rgb(251,224,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('put_prev_task_fair (11 samples, 0.23%)')" onmouseout="c()">
+<title>put_prev_task_fair (11 samples, 0.23%)</title><rect x="243.9" y="1873" width="2.7" height="15.0" fill="rgb(226,81,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('tick_sched_timer (1 samples, 0.02%)')" onmouseout="c()">
+<title>tick_sched_timer (1 samples, 0.02%)</title><rect x="408.7" y="1841" width="0.3" height="15.0" fill="rgb(207,48,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (5 samples, 0.10%)')" onmouseout="c()">
+<title>native_write_msr_safe (5 samples, 0.10%)</title><rect x="21.3" y="1729" width="1.2" height="15.0" fill="rgb(209,107,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_mprotect (4 samples, 0.08%)')" onmouseout="c()">
+<title>sys_mprotect (4 samples, 0.08%)</title><rect x="16.4" y="1969" width="1.0" height="15.0" fill="rgb(227,178,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key (29 samples, 0.60%)')" onmouseout="c()">
+<title>get_futex_key (29 samples, 0.60%)</title><rect x="428.4" y="1905" width="7.1" height="15.0" fill="rgb(217,201,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('find_next_bit (2 samples, 0.04%)')" onmouseout="c()">
+<title>find_next_bit (2 samples, 0.04%)</title><rect x="995.2" y="1857" width="0.5" height="15.0" fill="rgb(219,46,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (9 samples, 0.19%)')" onmouseout="c()">
+<title>[unknown] (9 samples, 0.19%)</title><rect x="18.8" y="1953" width="2.3" height="15.0" fill="rgb(251,77,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_flush_tlb (1 samples, 0.02%)')" onmouseout="c()">
+<title>native_flush_tlb (1 samples, 0.02%)</title><rect x="10.5" y="33" width="0.2" height="15.0" fill="rgb(230,131,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('start_thread (4,742 samples, 98.73%)')" onmouseout="c()">
+<title>start_thread (4,742 samples, 98.73%)</title><rect x="25.0" y="2017" width="1165.0" height="15.0" fill="rgb(226,94,10)" rx="2" ry="2" />
+<text text-anchor="" x="27.9864667915886" y="2027.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >start_thread</text>
+</g>
+<g class="func_g" onmouseover="s('intel_pmu_enable_all (5 samples, 0.10%)')" onmouseout="c()">
+<title>intel_pmu_enable_all (5 samples, 0.10%)</title><rect x="23.5" y="1825" width="1.2" height="15.0" fill="rgb(211,14,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_load_sp0 (1 samples, 0.02%)')" onmouseout="c()">
+<title>native_load_sp0 (1 samples, 0.02%)</title><rect x="87.9" y="1985" width="0.2" height="15.0" fill="rgb(251,156,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (167 samples, 3.48%)')" onmouseout="c()">
+<title>finish_task_switch (167 samples, 3.48%)</title><rect x="183.9" y="1873" width="41.1" height="15.0" fill="rgb(220,144,8)" rx="2" ry="2" />
+<text text-anchor="" x="186.941286695815" y="1883.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >fin..</text>
+</g>
+<g class="func_g" onmouseover="s('_dl_name_match_p (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_name_match_p (1 samples, 0.02%)</title><rect x="18.1" y="2001" width="0.3" height="15.0" fill="rgb(223,18,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>_raw_spin_lock (1 samples, 0.02%)</title><rect x="137.5" y="1921" width="0.3" height="15.0" fill="rgb(215,45,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_futex (2,224 samples, 46.30%)')" onmouseout="c()">
+<title>do_futex (2,224 samples, 46.30%)</title><rect x="514.4" y="1953" width="546.4" height="15.0" fill="rgb(208,44,44)" rx="2" ry="2" />
+<text text-anchor="" x="517.38059546117" y="1963.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >do_futex</text>
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (2 samples, 0.04%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (2 samples, 0.04%)</title><rect x="927.1" y="1873" width="0.5" height="15.0" fill="rgb(214,15,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('idle_cpu (1 samples, 0.02%)')" onmouseout="c()">
+<title>idle_cpu (1 samples, 0.02%)</title><rect x="995.7" y="1857" width="0.2" height="15.0" fill="rgb(213,78,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_fork (1 samples, 0.02%)')" onmouseout="c()">
+<title>ret_from_fork (1 samples, 0.02%)</title><rect x="10.0" y="65" width="0.2" height="15.0" fill="rgb(218,106,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_read_tsc (1 samples, 0.02%)')" onmouseout="c()">
+<title>native_read_tsc (1 samples, 0.02%)</title><rect x="1037.7" y="1745" width="0.2" height="15.0" fill="rgb(250,196,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule_tail (18 samples, 0.37%)')" onmouseout="c()">
+<title>schedule_tail (18 samples, 0.37%)</title><rect x="11.0" y="129" width="4.4" height="15.0" fill="rgb(250,29,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_shares (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_cfs_shares (1 samples, 0.02%)</title><rect x="1036.5" y="1809" width="0.2" height="15.0" fill="rgb(243,155,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_load (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_cfs_load (1 samples, 0.02%)</title><rect x="179.8" y="1825" width="0.2" height="15.0" fill="rgb(228,147,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_softirq (1 samples, 0.02%)</title><rect x="901.6" y="1857" width="0.2" height="15.0" fill="rgb(246,46,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pipe_wait (6 samples, 0.12%)')" onmouseout="c()">
+<title>pipe_wait (6 samples, 0.12%)</title><rect x="21.1" y="1857" width="1.4" height="15.0" fill="rgb(218,129,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__run_hrtimer (1 samples, 0.02%)')" onmouseout="c()">
+<title>__run_hrtimer (1 samples, 0.02%)</title><rect x="16.1" y="81" width="0.3" height="15.0" fill="rgb(206,103,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_stats_wait_end (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_stats_wait_end (1 samples, 0.02%)</title><rect x="22.8" y="1921" width="0.2" height="15.0" fill="rgb(254,60,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('x86_pmu_enable (6 samples, 0.12%)')" onmouseout="c()">
+<title>x86_pmu_enable (6 samples, 0.12%)</title><rect x="19.6" y="1697" width="1.5" height="15.0" fill="rgb(214,147,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1713" width="6.4" height="15.0" fill="rgb(210,52,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_process_times (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_process_times (1 samples, 0.02%)</title><rect x="15.7" y="81" width="0.2" height="15.0" fill="rgb(224,122,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wake_futex (527 samples, 10.97%)')" onmouseout="c()">
+<title>wake_futex (527 samples, 10.97%)</title><rect x="914.6" y="1921" width="129.5" height="15.0" fill="rgb(238,178,38)" rx="2" ry="2" />
+<text text-anchor="" x="917.592962731626" y="1931.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >wake_futex</text>
+</g>
+<g class="func_g" onmouseover="s('__enqueue_entity (2 samples, 0.04%)')" onmouseout="c()">
+<title>__enqueue_entity (2 samples, 0.04%)</title><rect x="245.1" y="1841" width="0.5" height="15.0" fill="rgb(239,43,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('deactivate_task (114 samples, 2.37%)')" onmouseout="c()">
+<title>deactivate_task (114 samples, 2.37%)</title><rect x="155.9" y="1873" width="28.0" height="15.0" fill="rgb(208,214,15)" rx="2" ry="2" />
+<text text-anchor="" x="158.933791380387" y="1883.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >d..</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="593" width="6.4" height="15.0" fill="rgb(251,226,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_sched_clock (2 samples, 0.04%)')" onmouseout="c()">
+<title>native_sched_clock (2 samples, 0.04%)</title><rect x="183.4" y="1793" width="0.5" height="15.0" fill="rgb(244,147,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (155 samples, 3.23%)')" onmouseout="c()">
+<title>native_write_msr_safe (155 samples, 3.23%)</title><rect x="186.6" y="1793" width="38.1" height="15.0" fill="rgb(218,182,36)" rx="2" ry="2" />
+<text text-anchor="" x="189.64376431397" y="1803.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >nat..</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="929" width="6.4" height="15.0" fill="rgb(229,167,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_load (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_cfs_load (1 samples, 0.02%)</title><rect x="1023.4" y="1777" width="0.3" height="15.0" fill="rgb(229,9,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (5 samples, 0.10%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (5 samples, 0.10%)</title><rect x="23.5" y="1857" width="1.2" height="15.0" fill="rgb(217,65,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_lock (1 samples, 0.02%)</title><rect x="155.7" y="1809" width="0.2" height="15.0" fill="rgb(221,113,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_task_sched_out (22 samples, 0.46%)')" onmouseout="c()">
+<title>perf_event_task_sched_out (22 samples, 0.46%)</title><rect x="225.7" y="1873" width="5.4" height="15.0" fill="rgb(230,168,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="465" width="6.4" height="15.0" fill="rgb(227,207,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('idle_cpu (12 samples, 0.25%)')" onmouseout="c()">
+<title>idle_cpu (12 samples, 0.25%)</title><rect x="999.6" y="1841" width="2.9" height="15.0" fill="rgb(252,153,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_sys_call (4 samples, 0.08%)')" onmouseout="c()">
+<title>ret_from_sys_call (4 samples, 0.08%)</title><rect x="91.1" y="1985" width="1.0" height="15.0" fill="rgb(211,133,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('copy_process (1 samples, 0.02%)')" onmouseout="c()">
+<title>copy_process (1 samples, 0.02%)</title><rect x="10.7" y="81" width="0.3" height="15.0" fill="rgb(211,194,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('reweight_entity (13 samples, 0.27%)')" onmouseout="c()">
+<title>reweight_entity (13 samples, 0.27%)</title><rect x="1025.9" y="1761" width="3.2" height="15.0" fill="rgb(221,197,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('scheduler_tick (1 samples, 0.02%)')" onmouseout="c()">
+<title>scheduler_tick (1 samples, 0.02%)</title><rect x="1189.3" y="1889" width="0.2" height="15.0" fill="rgb(225,93,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule (5 samples, 0.10%)')" onmouseout="c()">
+<title>schedule (5 samples, 0.10%)</title><rect x="23.5" y="1921" width="1.2" height="15.0" fill="rgb(244,101,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock (3 samples, 0.06%)')" onmouseout="c()">
+<title>sched_clock (3 samples, 0.06%)</title><rect x="183.2" y="1809" width="0.7" height="15.0" fill="rgb(218,189,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="15.7" y="145" width="0.2" height="15.0" fill="rgb(253,176,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dequeue_task_fair (99 samples, 2.06%)')" onmouseout="c()">
+<title>dequeue_task_fair (99 samples, 2.06%)</title><rect x="156.9" y="1841" width="24.3" height="15.0" fill="rgb(232,120,47)" rx="2" ry="2" />
+<text text-anchor="" x="159.916510514262" y="1851.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >d..</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1025" width="6.4" height="15.0" fill="rgb(237,156,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="408.7" y="1889" width="0.3" height="15.0" fill="rgb(216,37,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('set_next_entity (27 samples, 0.56%)')" onmouseout="c()">
+<title>set_next_entity (27 samples, 0.56%)</title><rect x="237.3" y="1857" width="6.6" height="15.0" fill="rgb(250,31,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1585" width="6.4" height="15.0" fill="rgb(205,102,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (2 samples, 0.04%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (2 samples, 0.04%)</title><rect x="137.0" y="1921" width="0.5" height="15.0" fill="rgb(205,17,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_mprotect (1 samples, 0.02%)')" onmouseout="c()">
+<title>sys_mprotect (1 samples, 0.02%)</title><rect x="23.3" y="1953" width="0.2" height="15.0" fill="rgb(228,101,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_rq_clock (5 samples, 0.10%)')" onmouseout="c()">
+<title>update_rq_clock (5 samples, 0.10%)</title><rect x="1036.7" y="1809" width="1.2" height="15.0" fill="rgb(239,78,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (1 samples, 0.02%)')" onmouseout="c()">
+<title>__schedule (1 samples, 0.02%)</title><rect x="24.7" y="1969" width="0.3" height="15.0" fill="rgb(246,126,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key (1 samples, 0.02%)')" onmouseout="c()">
+<title>get_futex_key (1 samples, 0.02%)</title><rect x="440.2" y="1921" width="0.2" height="15.0" fill="rgb(244,103,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_shares (22 samples, 0.46%)')" onmouseout="c()">
+<title>update_cfs_shares (22 samples, 0.46%)</title><rect x="1023.7" y="1777" width="5.4" height="15.0" fill="rgb(215,104,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_mutex_lock (302 samples, 6.29%)')" onmouseout="c()">
+<title>pthread_mutex_lock (302 samples, 6.29%)</title><rect x="1064.5" y="2001" width="74.2" height="15.0" fill="rgb(230,155,45)" rx="2" ry="2" />
+<text text-anchor="" x="1067.45763064751" y="2011.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >pthread_..</text>
+</g>
+<g class="func_g" onmouseover="s('iwl_isr_ict (1 samples, 0.02%)')" onmouseout="c()">
+<title>iwl_isr_ict (1 samples, 0.02%)</title><rect x="249.3" y="1777" width="0.2" height="15.0" fill="rgb(217,131,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1953" width="6.4" height="15.0" fill="rgb(209,19,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_softirq (1 samples, 0.02%)</title><rect x="15.9" y="145" width="0.2" height="15.0" fill="rgb(220,227,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('security_bprm_set_creds (1 samples, 0.02%)')" onmouseout="c()">
+<title>security_bprm_set_creds (1 samples, 0.02%)</title><rect x="19.3" y="1841" width="0.3" height="15.0" fill="rgb(249,175,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (20 samples, 0.42%)')" onmouseout="c()">
+<title>__ticket_spin_lock (20 samples, 0.42%)</title><rect x="547.5" y="1921" width="5.0" height="15.0" fill="rgb(234,207,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_task_sched_out (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_task_sched_out (1 samples, 0.02%)</title><rect x="24.7" y="1953" width="0.3" height="15.0" fill="rgb(205,202,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('strcmp (1 samples, 0.02%)')" onmouseout="c()">
+<title>strcmp (1 samples, 0.02%)</title><rect x="19.3" y="1777" width="0.3" height="15.0" fill="rgb(214,184,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rcu_check_callbacks (1 samples, 0.02%)')" onmouseout="c()">
+<title>rcu_check_callbacks (1 samples, 0.02%)</title><rect x="15.7" y="65" width="0.2" height="15.0" fill="rgb(219,90,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_queue (124 samples, 2.58%)')" onmouseout="c()">
+<title>ttwu_queue (124 samples, 2.58%)</title><rect x="1011.6" y="1873" width="30.5" height="15.0" fill="rgb(247,177,29)" rx="2" ry="2" />
+<text text-anchor="" x="1014.63647720175" y="1883.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >tt..</text>
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (1 samples, 0.02%)</title><rect x="990.0" y="1857" width="0.3" height="15.0" fill="rgb(209,131,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait_setup (772 samples, 16.07%)')" onmouseout="c()">
+<title>futex_wait_setup (772 samples, 16.07%)</title><rect x="250.5" y="1921" width="189.7" height="15.0" fill="rgb(231,185,0)" rx="2" ry="2" />
+<text text-anchor="" x="253.520508015823" y="1931.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >futex_wait_setup</text>
+</g>
+<g class="func_g" onmouseover="s('stub_execve (9 samples, 0.19%)')" onmouseout="c()">
+<title>stub_execve (9 samples, 0.19%)</title><rect x="18.8" y="1921" width="2.3" height="15.0" fill="rgb(213,201,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('calc_delta_mine (2 samples, 0.04%)')" onmouseout="c()">
+<title>calc_delta_mine (2 samples, 0.04%)</title><rect x="1028.6" y="1729" width="0.5" height="15.0" fill="rgb(243,4,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_fork (1 samples, 0.02%)')" onmouseout="c()">
+<title>ret_from_fork (1 samples, 0.02%)</title><rect x="15.9" y="225" width="0.2" height="15.0" fill="rgb(242,48,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (4 samples, 0.08%)')" onmouseout="c()">
+<title>_raw_spin_lock (4 samples, 0.08%)</title><rect x="519.0" y="1937" width="1.0" height="15.0" fill="rgb(246,196,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__bitmap_empty (1 samples, 0.02%)')" onmouseout="c()">
+<title>__bitmap_empty (1 samples, 0.02%)</title><rect x="16.4" y="1889" width="0.2" height="15.0" fill="rgb(215,60,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('enqueue_task (97 samples, 2.02%)')" onmouseout="c()">
+<title>enqueue_task (97 samples, 2.02%)</title><rect x="1014.1" y="1825" width="23.8" height="15.0" fill="rgb(215,202,54)" rx="2" ry="2" />
+<text text-anchor="" x="1017.09327503644" y="1835.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >e..</text>
+</g>
+<g class="func_g" onmouseover="s('wait_for_common (6 samples, 0.12%)')" onmouseout="c()">
+<title>wait_for_common (6 samples, 0.12%)</title><rect x="19.6" y="1809" width="1.5" height="15.0" fill="rgb(208,136,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mprotect_fixup (1 samples, 0.02%)')" onmouseout="c()">
+<title>mprotect_fixup (1 samples, 0.02%)</title><rect x="23.3" y="1937" width="0.2" height="15.0" fill="rgb(235,3,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (2 samples, 0.04%)')" onmouseout="c()">
+<title>__ticket_spin_lock (2 samples, 0.04%)</title><rect x="225.0" y="1825" width="0.5" height="15.0" fill="rgb(250,111,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__execve (9 samples, 0.19%)')" onmouseout="c()">
+<title>__execve (9 samples, 0.19%)</title><rect x="18.8" y="1937" width="2.3" height="15.0" fill="rgb(212,52,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_invalidate_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_invalidate_interrupt (1 samples, 0.02%)</title><rect x="10.5" y="49" width="0.2" height="15.0" fill="rgb(243,219,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="15.9" y="177" width="0.2" height="15.0" fill="rgb(245,68,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('exit_mmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>exit_mmap (1 samples, 0.02%)</title><rect x="18.6" y="1841" width="0.2" height="15.0" fill="rgb(219,172,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_after_swapgs (45 samples, 0.94%)')" onmouseout="c()">
+<title>system_call_after_swapgs (45 samples, 0.94%)</title><rect x="491.8" y="1985" width="11.0" height="15.0" fill="rgb(251,62,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('find_busiest_group (1 samples, 0.02%)')" onmouseout="c()">
+<title>find_busiest_group (1 samples, 0.02%)</title><rect x="901.6" y="1761" width="0.2" height="15.0" fill="rgb(249,124,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait_queue_me (5 samples, 0.10%)')" onmouseout="c()">
+<title>futex_wait_queue_me (5 samples, 0.10%)</title><rect x="23.5" y="1937" width="1.2" height="15.0" fill="rgb(251,142,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__cond_resched (6 samples, 0.12%)')" onmouseout="c()">
+<title>__cond_resched (6 samples, 0.12%)</title><rect x="19.6" y="1777" width="1.5" height="15.0" fill="rgb(227,15,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="705" width="6.4" height="15.0" fill="rgb(213,10,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="561" width="6.4" height="15.0" fill="rgb(217,56,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (18 samples, 0.37%)')" onmouseout="c()">
+<title>finish_task_switch (18 samples, 0.37%)</title><rect x="11.0" y="113" width="4.4" height="15.0" fill="rgb(227,37,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (12 samples, 0.25%)')" onmouseout="c()">
+<title>native_write_msr_safe (12 samples, 0.25%)</title><rect x="88.1" y="1985" width="3.0" height="15.0" fill="rgb(217,123,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_join (5 samples, 0.10%)')" onmouseout="c()">
+<title>pthread_join (5 samples, 0.10%)</title><rect x="23.5" y="2017" width="1.2" height="15.0" fill="rgb(250,130,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('device_not_available (1 samples, 0.02%)')" onmouseout="c()">
+<title>device_not_available (1 samples, 0.02%)</title><rect x="17.4" y="1985" width="0.2" height="15.0" fill="rgb(222,45,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (3 samples, 0.06%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (3 samples, 0.06%)</title><rect x="552.5" y="1921" width="0.7" height="15.0" fill="rgb(238,18,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1553" width="6.4" height="15.0" fill="rgb(218,91,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_futex (2,266 samples, 47.18%)')" onmouseout="c()">
+<title>sys_futex (2,266 samples, 47.18%)</title><rect x="505.5" y="1969" width="556.7" height="15.0" fill="rgb(208,129,38)" rx="2" ry="2" />
+<text text-anchor="" x="508.536123256298" y="1979.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >sys_futex</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="865" width="6.4" height="15.0" fill="rgb(239,140,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock_cpu (1 samples, 0.02%)')" onmouseout="c()">
+<title>sched_clock_cpu (1 samples, 0.02%)</title><rect x="225.5" y="1825" width="0.2" height="15.0" fill="rgb(245,12,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call (32 samples, 0.67%)')" onmouseout="c()">
+<title>system_call (32 samples, 0.67%)</title><rect x="93.8" y="1985" width="7.8" height="15.0" fill="rgb(208,2,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('path_openat (1 samples, 0.02%)')" onmouseout="c()">
+<title>path_openat (1 samples, 0.02%)</title><rect x="19.1" y="1825" width="0.2" height="15.0" fill="rgb(237,3,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="289" width="6.4" height="15.0" fill="rgb(217,202,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (3 samples, 0.06%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (3 samples, 0.06%)</title><rect x="518.3" y="1937" width="0.7" height="15.0" fill="rgb(239,222,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_last (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_last (1 samples, 0.02%)</title><rect x="19.1" y="1809" width="0.2" height="15.0" fill="rgb(215,104,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (23 samples, 0.48%)')" onmouseout="c()">
+<title>[unknown] (23 samples, 0.48%)</title><rect x="10.0" y="193" width="5.7" height="15.0" fill="rgb(246,0,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_fork (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_fork (1 samples, 0.02%)</title><rect x="10.7" y="97" width="0.3" height="15.0" fill="rgb(222,195,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="641" width="6.4" height="15.0" fill="rgb(246,21,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1249" width="6.4" height="15.0" fill="rgb(237,188,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="408.7" y="1905" width="0.3" height="15.0" fill="rgb(254,151,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1937" width="6.4" height="15.0" fill="rgb(227,51,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1649" width="6.4" height="15.0" fill="rgb(206,68,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sysret_check (7 samples, 0.15%)')" onmouseout="c()">
+<title>sysret_check (7 samples, 0.15%)</title><rect x="92.1" y="1985" width="1.7" height="15.0" fill="rgb(226,171,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('x86_pmu_enable (5 samples, 0.10%)')" onmouseout="c()">
+<title>x86_pmu_enable (5 samples, 0.10%)</title><rect x="21.3" y="1761" width="1.2" height="15.0" fill="rgb(220,84,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hrtimer_interrupt (2 samples, 0.04%)')" onmouseout="c()">
+<title>hrtimer_interrupt (2 samples, 0.04%)</title><rect x="1189.0" y="1953" width="0.5" height="15.0" fill="rgb(229,85,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (2,277 samples, 47.41%)')" onmouseout="c()">
+<title>system_call_fastpath (2,277 samples, 47.41%)</title><rect x="502.8" y="1985" width="559.4" height="15.0" fill="rgb(224,226,43)" rx="2" ry="2" />
+<text text-anchor="" x="505.833645638143" y="1995.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >system_call_fastpath</text>
+</g>
+<g class="func_g" onmouseover="s('check_preempt_curr (12 samples, 0.25%)')" onmouseout="c()">
+<title>check_preempt_curr (12 samples, 0.25%)</title><rect x="1039.2" y="1825" width="2.9" height="15.0" fill="rgb(231,86,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_mutex_unlock@plt (2 samples, 0.04%)')" onmouseout="c()">
+<title>pthread_mutex_unlock@plt (2 samples, 0.04%)</title><rect x="1189.5" y="2001" width="0.5" height="15.0" fill="rgb(228,111,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('increment (16 samples, 0.33%)')" onmouseout="c()">
+<title>increment (16 samples, 0.33%)</title><rect x="32.4" y="1985" width="3.9" height="15.0" fill="rgb(225,56,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (1 samples, 0.02%)')" onmouseout="c()">
+<title>system_call_fastpath (1 samples, 0.02%)</title><rect x="23.3" y="1969" width="0.2" height="15.0" fill="rgb(230,218,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hash_futex (3 samples, 0.06%)')" onmouseout="c()">
+<title>hash_futex (3 samples, 0.06%)</title><rect x="439.4" y="1905" width="0.8" height="15.0" fill="rgb(217,220,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('stub_execve (1 samples, 0.02%)')" onmouseout="c()">
+<title>stub_execve (1 samples, 0.02%)</title><rect x="18.6" y="2001" width="0.2" height="15.0" fill="rgb(228,64,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (1,424 samples, 29.65%)')" onmouseout="c()">
+<title>system_call_fastpath (1,424 samples, 29.65%)</title><rect x="108.3" y="1985" width="349.8" height="15.0" fill="rgb(206,84,28)" rx="2" ry="2" />
+<text text-anchor="" x="111.271913387466" y="1995.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >system_call_fastpath</text>
+</g>
+<g class="func_g" onmouseover="s('hrtimer_wakeup (1 samples, 0.02%)')" onmouseout="c()">
+<title>hrtimer_wakeup (1 samples, 0.02%)</title><rect x="16.1" y="65" width="0.3" height="15.0" fill="rgb(208,133,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('stub_clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>stub_clone (1 samples, 0.02%)</title><rect x="16.1" y="225" width="0.3" height="15.0" fill="rgb(207,215,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_execve (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_execve (1 samples, 0.02%)</title><rect x="18.6" y="1969" width="0.2" height="15.0" fill="rgb(215,182,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1681" width="6.4" height="15.0" fill="rgb(208,197,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('bprm_mm_init (1 samples, 0.02%)')" onmouseout="c()">
+<title>bprm_mm_init (1 samples, 0.02%)</title><rect x="18.8" y="1873" width="0.3" height="15.0" fill="rgb(205,156,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="417" width="6.4" height="15.0" fill="rgb(250,166,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule_tail (1 samples, 0.02%)')" onmouseout="c()">
+<title>schedule_tail (1 samples, 0.02%)</title><rect x="10.0" y="49" width="0.2" height="15.0" fill="rgb(223,146,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('try_to_wake_up (1 samples, 0.02%)')" onmouseout="c()">
+<title>try_to_wake_up (1 samples, 0.02%)</title><rect x="16.1" y="33" width="0.3" height="15.0" fill="rgb(236,40,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1329" width="6.4" height="15.0" fill="rgb(234,25,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_futex (5 samples, 0.10%)')" onmouseout="c()">
+<title>sys_futex (5 samples, 0.10%)</title><rect x="23.5" y="1985" width="1.2" height="15.0" fill="rgb(253,91,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_fork (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_fork (1 samples, 0.02%)</title><rect x="16.1" y="193" width="0.3" height="15.0" fill="rgb(209,180,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="849" width="6.4" height="15.0" fill="rgb(236,131,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait (1,366 samples, 28.44%)')" onmouseout="c()">
+<title>futex_wait (1,366 samples, 28.44%)</title><rect x="119.8" y="1937" width="335.6" height="15.0" fill="rgb(249,20,7)" rx="2" ry="2" />
+<text text-anchor="" x="122.818863210493" y="1947.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >futex_wait</text>
+</g>
+<g class="func_g" onmouseover="s('get_futex_key (37 samples, 0.77%)')" onmouseout="c()">
+<title>get_futex_key (37 samples, 0.77%)</title><rect x="903.0" y="1921" width="9.1" height="15.0" fill="rgb(225,190,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_fork (2 samples, 0.04%)')" onmouseout="c()">
+<title>ret_from_fork (2 samples, 0.04%)</title><rect x="10.2" y="97" width="0.5" height="15.0" fill="rgb(224,164,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('load_elf_binary (1 samples, 0.02%)')" onmouseout="c()">
+<title>load_elf_binary (1 samples, 0.02%)</title><rect x="18.6" y="1921" width="0.2" height="15.0" fill="rgb(245,206,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1345" width="6.4" height="15.0" fill="rgb(235,68,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (17 samples, 0.35%)')" onmouseout="c()">
+<title>__ticket_spin_lock (17 samples, 0.35%)</title><rect x="985.3" y="1841" width="4.2" height="15.0" fill="rgb(223,152,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('cpuacct_charge (5 samples, 0.10%)')" onmouseout="c()">
+<title>cpuacct_charge (5 samples, 0.10%)</title><rect x="178.0" y="1793" width="1.3" height="15.0" fill="rgb(221,41,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1905" width="6.4" height="15.0" fill="rgb(214,0,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pick_next_task_fair (51 samples, 1.06%)')" onmouseout="c()">
+<title>pick_next_task_fair (51 samples, 1.06%)</title><rect x="231.4" y="1873" width="12.5" height="15.0" fill="rgb(234,105,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unqueue_me (3 samples, 0.06%)')" onmouseout="c()">
+<title>unqueue_me (3 samples, 0.06%)</title><rect x="454.7" y="1921" width="0.7" height="15.0" fill="rgb(234,32,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="155.7" y="1873" width="0.2" height="15.0" fill="rgb(238,83,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('call_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>call_softirq (1 samples, 0.02%)</title><rect x="901.6" y="1841" width="0.2" height="15.0" fill="rgb(239,104,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_munmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_munmap (1 samples, 0.02%)</title><rect x="15.4" y="113" width="0.3" height="15.0" fill="rgb(230,172,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hrtimer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>hrtimer_interrupt (1 samples, 0.02%)</title><rect x="15.7" y="129" width="0.2" height="15.0" fill="rgb(224,205,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__queue_work (1 samples, 0.02%)')" onmouseout="c()">
+<title>__queue_work (1 samples, 0.02%)</title><rect x="15.9" y="49" width="0.2" height="15.0" fill="rgb(219,31,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('file_sb_list_add (1 samples, 0.02%)')" onmouseout="c()">
+<title>file_sb_list_add (1 samples, 0.02%)</title><rect x="19.1" y="1729" width="0.2" height="15.0" fill="rgb(252,223,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('exec_mmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>exec_mmap (1 samples, 0.02%)</title><rect x="18.6" y="1889" width="0.2" height="15.0" fill="rgb(228,54,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('flush_tlb_others_ipi (3 samples, 0.06%)')" onmouseout="c()">
+<title>flush_tlb_others_ipi (3 samples, 0.06%)</title><rect x="16.6" y="1889" width="0.8" height="15.0" fill="rgb(236,210,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_mmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_mmap (1 samples, 0.02%)</title><rect x="23.3" y="1921" width="0.2" height="15.0" fill="rgb(227,191,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (2 samples, 0.04%)')" onmouseout="c()">
+<title>_raw_spin_lock (2 samples, 0.04%)</title><rect x="225.0" y="1841" width="0.5" height="15.0" fill="rgb(241,153,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__rcu_pending (1 samples, 0.02%)')" onmouseout="c()">
+<title>__rcu_pending (1 samples, 0.02%)</title><rect x="15.7" y="33" width="0.2" height="15.0" fill="rgb(226,9,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_L_unlock_644 (13 samples, 0.27%)')" onmouseout="c()">
+<title>_L_unlock_644 (13 samples, 0.27%)</title><rect x="39.7" y="2001" width="3.2" height="15.0" fill="rgb(205,127,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule_tail (2 samples, 0.04%)')" onmouseout="c()">
+<title>schedule_tail (2 samples, 0.04%)</title><rect x="10.2" y="81" width="0.5" height="15.0" fill="rgb(207,19,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1137" width="6.4" height="15.0" fill="rgb(227,27,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (1 samples, 0.02%)</title><rect x="10.2" y="33" width="0.3" height="15.0" fill="rgb(226,153,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1313" width="6.4" height="15.0" fill="rgb(211,19,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1105" width="6.4" height="15.0" fill="rgb(223,83,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hash_futex (65 samples, 1.35%)')" onmouseout="c()">
+<title>hash_futex (65 samples, 1.35%)</title><rect x="1044.8" y="1937" width="16.0" height="15.0" fill="rgb(238,87,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('invalidate_interrupt0 (1 samples, 0.02%)')" onmouseout="c()">
+<title>invalidate_interrupt0 (1 samples, 0.02%)</title><rect x="10.5" y="65" width="0.2" height="15.0" fill="rgb(219,93,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_dl_fixup (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_fixup (1 samples, 0.02%)</title><rect x="17.9" y="2001" width="0.2" height="15.0" fill="rgb(212,138,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('stop_one_cpu (6 samples, 0.12%)')" onmouseout="c()">
+<title>stop_one_cpu (6 samples, 0.12%)</title><rect x="19.6" y="1841" width="1.5" height="15.0" fill="rgb(252,88,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1793" width="6.4" height="15.0" fill="rgb(244,144,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('find_next_bit (3 samples, 0.06%)')" onmouseout="c()">
+<title>find_next_bit (3 samples, 0.06%)</title><rect x="998.9" y="1841" width="0.7" height="15.0" fill="rgb(234,49,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key_refs.isra.10 (2 samples, 0.04%)')" onmouseout="c()">
+<title>get_futex_key_refs.isra.10 (2 samples, 0.04%)</title><rect x="435.0" y="1889" width="0.5" height="15.0" fill="rgb(234,93,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_out (21 samples, 0.44%)')" onmouseout="c()">
+<title>__perf_event_task_sched_out (21 samples, 0.44%)</title><rect x="226.0" y="1857" width="5.1" height="15.0" fill="rgb(206,41,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (5 samples, 0.10%)')" onmouseout="c()">
+<title>system_call_fastpath (5 samples, 0.10%)</title><rect x="23.5" y="2001" width="1.2" height="15.0" fill="rgb(231,99,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="769" width="6.4" height="15.0" fill="rgb(224,35,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_sd_lb_stats (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_sd_lb_stats (1 samples, 0.02%)</title><rect x="901.6" y="1745" width="0.2" height="15.0" fill="rgb(223,156,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pick_next_task_fair (1 samples, 0.02%)')" onmouseout="c()">
+<title>pick_next_task_fair (1 samples, 0.02%)</title><rect x="22.8" y="1953" width="0.2" height="15.0" fill="rgb(234,182,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1505" width="6.4" height="15.0" fill="rgb(236,75,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="481" width="6.4" height="15.0" fill="rgb(221,75,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_read (6 samples, 0.12%)')" onmouseout="c()">
+<title>sys_read (6 samples, 0.12%)</title><rect x="21.1" y="1921" width="1.4" height="15.0" fill="rgb(240,68,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('insert_work (1 samples, 0.02%)')" onmouseout="c()">
+<title>insert_work (1 samples, 0.02%)</title><rect x="15.9" y="33" width="0.2" height="15.0" fill="rgb(209,229,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule_tail (1 samples, 0.02%)')" onmouseout="c()">
+<title>schedule_tail (1 samples, 0.02%)</title><rect x="15.7" y="177" width="0.2" height="15.0" fill="rgb(232,79,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1265" width="6.4" height="15.0" fill="rgb(215,129,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_rq_clock (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_rq_clock (1 samples, 0.02%)</title><rect x="225.5" y="1841" width="0.2" height="15.0" fill="rgb(245,139,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_process_times (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_process_times (1 samples, 0.02%)</title><rect x="1189.3" y="1905" width="0.2" height="15.0" fill="rgb(230,101,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (586 samples, 12.20%)')" onmouseout="c()">
+<title>__ticket_spin_lock (586 samples, 12.20%)</title><rect x="264.8" y="1889" width="143.9" height="15.0" fill="rgb(216,90,34)" rx="2" ry="2" />
+<text text-anchor="" x="267.769935457006" y="1899.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__ticket_spin_lock</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="785" width="6.4" height="15.0" fill="rgb(231,84,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="833" width="6.4" height="15.0" fill="rgb(232,74,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('d_path (1 samples, 0.02%)')" onmouseout="c()">
+<title>d_path (1 samples, 0.02%)</title><rect x="23.3" y="1889" width="0.2" height="15.0" fill="rgb(231,55,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1441" width="6.4" height="15.0" fill="rgb(210,129,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wakeup_preempt_entity.isra.37 (1 samples, 0.02%)')" onmouseout="c()">
+<title>wakeup_preempt_entity.isra.37 (1 samples, 0.02%)</title><rect x="236.0" y="1841" width="0.3" height="15.0" fill="rgb(205,90,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('place_entity (2 samples, 0.04%)')" onmouseout="c()">
+<title>place_entity (2 samples, 0.04%)</title><rect x="1022.7" y="1777" width="0.5" height="15.0" fill="rgb(247,186,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1921" width="6.4" height="15.0" fill="rgb(236,25,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zap_pte_range (1 samples, 0.02%)')" onmouseout="c()">
+<title>zap_pte_range (1 samples, 0.02%)</title><rect x="15.4" y="33" width="0.3" height="15.0" fill="rgb(219,18,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (3 samples, 0.06%)')" onmouseout="c()">
+<title>_raw_spin_lock (3 samples, 0.06%)</title><rect x="1013.1" y="1857" width="0.7" height="15.0" fill="rgb(231,139,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_IRQ (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_IRQ (1 samples, 0.02%)</title><rect x="249.3" y="1857" width="0.2" height="15.0" fill="rgb(218,50,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (1 samples, 0.02%)')" onmouseout="c()">
+<title>finish_task_switch (1 samples, 0.02%)</title><rect x="10.2" y="65" width="0.3" height="15.0" fill="rgb(231,59,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (34 samples, 0.71%)')" onmouseout="c()">
+<title>[unknown] (34 samples, 0.71%)</title><rect x="10.0" y="2017" width="8.4" height="15.0" fill="rgb(212,194,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (6 samples, 0.12%)')" onmouseout="c()">
+<title>__schedule (6 samples, 0.12%)</title><rect x="19.6" y="1761" width="1.5" height="15.0" fill="rgb(227,6,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1217" width="6.4" height="15.0" fill="rgb(226,184,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_single_vma (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_single_vma (1 samples, 0.02%)</title><rect x="15.4" y="65" width="0.3" height="15.0" fill="rgb(228,196,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('idle_balance (3 samples, 0.06%)')" onmouseout="c()">
+<title>idle_balance (3 samples, 0.06%)</title><rect x="225.0" y="1873" width="0.7" height="15.0" fill="rgb(210,59,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1857" width="6.4" height="15.0" fill="rgb(239,179,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rcu_pending (1 samples, 0.02%)')" onmouseout="c()">
+<title>rcu_pending (1 samples, 0.02%)</title><rect x="15.7" y="49" width="0.2" height="15.0" fill="rgb(225,96,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_futex (5 samples, 0.10%)')" onmouseout="c()">
+<title>sys_futex (5 samples, 0.10%)</title><rect x="477.0" y="1985" width="1.3" height="15.0" fill="rgb(232,170,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('load_balance (1 samples, 0.02%)')" onmouseout="c()">
+<title>load_balance (1 samples, 0.02%)</title><rect x="901.6" y="1777" width="0.2" height="15.0" fill="rgb(209,141,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('tick_sched_timer (1 samples, 0.02%)')" onmouseout="c()">
+<title>tick_sched_timer (1 samples, 0.02%)</title><rect x="15.7" y="97" width="0.2" height="15.0" fill="rgb(239,201,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('open_exec (1 samples, 0.02%)')" onmouseout="c()">
+<title>open_exec (1 samples, 0.02%)</title><rect x="19.1" y="1857" width="0.2" height="15.0" fill="rgb(224,9,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1809" width="6.4" height="15.0" fill="rgb(238,150,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('copy_process (1 samples, 0.02%)')" onmouseout="c()">
+<title>copy_process (1 samples, 0.02%)</title><rect x="16.1" y="177" width="0.3" height="15.0" fill="rgb(240,49,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('load_balance (2 samples, 0.04%)')" onmouseout="c()">
+<title>load_balance (2 samples, 0.04%)</title><rect x="225.0" y="1857" width="0.5" height="15.0" fill="rgb(226,178,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (2 samples, 0.04%)')" onmouseout="c()">
+<title>__clone (2 samples, 0.04%)</title><rect x="15.9" y="241" width="0.5" height="15.0" fill="rgb(247,207,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="945" width="6.4" height="15.0" fill="rgb(248,55,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('calc_delta_mine (1 samples, 0.02%)')" onmouseout="c()">
+<title>calc_delta_mine (1 samples, 0.02%)</title><rect x="1026.4" y="1745" width="0.2" height="15.0" fill="rgb(225,74,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('set_next_entity (1 samples, 0.02%)')" onmouseout="c()">
+<title>set_next_entity (1 samples, 0.02%)</title><rect x="22.8" y="1937" width="0.2" height="15.0" fill="rgb(208,118,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1745" width="6.4" height="15.0" fill="rgb(217,215,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call (1 samples, 0.02%)')" onmouseout="c()">
+<title>system_call (1 samples, 0.02%)</title><rect x="22.5" y="2001" width="0.3" height="15.0" fill="rgb(218,4,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1569" width="6.4" height="15.0" fill="rgb(227,214,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="401" width="6.4" height="15.0" fill="rgb(253,221,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1537" width="6.4" height="15.0" fill="rgb(208,53,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('run_timer_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>run_timer_softirq (1 samples, 0.02%)</title><rect x="15.9" y="97" width="0.2" height="15.0" fill="rgb(246,67,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1169" width="6.4" height="15.0" fill="rgb(246,142,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('check_preempt_wakeup (8 samples, 0.17%)')" onmouseout="c()">
+<title>check_preempt_wakeup (8 samples, 0.17%)</title><rect x="1039.6" y="1809" width="2.0" height="15.0" fill="rgb(245,26,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="449" width="6.4" height="15.0" fill="rgb(206,216,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (6 samples, 0.12%)')" onmouseout="c()">
+<title>__ticket_spin_lock (6 samples, 0.12%)</title><rect x="154.2" y="1857" width="1.5" height="15.0" fill="rgb(216,134,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__lll_unlock_wake (2,459 samples, 51.20%)')" onmouseout="c()">
+<title>__lll_unlock_wake (2,459 samples, 51.20%)</title><rect x="458.1" y="2001" width="604.1" height="15.0" fill="rgb(247,47,28)" rx="2" ry="2" />
+<text text-anchor="" x="461.119925046846" y="2011.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__lll_unlock_wake</text>
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="901.6" y="1889" width="0.2" height="15.0" fill="rgb(250,202,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (15 samples, 0.31%)')" onmouseout="c()">
+<title>[unknown] (15 samples, 0.31%)</title><rect x="18.8" y="1985" width="3.7" height="15.0" fill="rgb(251,68,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__attach_match (1 samples, 0.02%)')" onmouseout="c()">
+<title>__attach_match (1 samples, 0.02%)</title><rect x="19.3" y="1793" width="0.3" height="15.0" fill="rgb(240,15,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('vm_munmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>vm_munmap (1 samples, 0.02%)</title><rect x="15.4" y="129" width="0.3" height="15.0" fill="rgb(219,157,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_shares (4 samples, 0.08%)')" onmouseout="c()">
+<title>update_cfs_shares (4 samples, 0.08%)</title><rect x="180.0" y="1825" width="1.0" height="15.0" fill="rgb(232,137,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (159 samples, 3.31%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (159 samples, 3.31%)</title><rect x="185.7" y="1841" width="39.0" height="15.0" fill="rgb(210,225,35)" rx="2" ry="2" />
+<text text-anchor="" x="188.661045180096" y="1851.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >per..</text>
+</g>
+<g class="func_g" onmouseover="s('copy_process.part.22 (1 samples, 0.02%)')" onmouseout="c()">
+<title>copy_process.part.22 (1 samples, 0.02%)</title><rect x="10.7" y="65" width="0.3" height="15.0" fill="rgb(242,148,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dup_task_struct (1 samples, 0.02%)')" onmouseout="c()">
+<title>dup_task_struct (1 samples, 0.02%)</title><rect x="16.1" y="145" width="0.3" height="15.0" fill="rgb(238,24,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (18 samples, 0.37%)')" onmouseout="c()">
+<title>__clone (18 samples, 0.37%)</title><rect x="11.0" y="161" width="4.4" height="15.0" fill="rgb(208,16,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('increment (9 samples, 0.19%)')" onmouseout="c()">
+<title>increment (9 samples, 0.19%)</title><rect x="1062.2" y="2001" width="2.3" height="15.0" fill="rgb(237,116,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key (3 samples, 0.06%)')" onmouseout="c()">
+<title>get_futex_key (3 samples, 0.06%)</title><rect x="1044.1" y="1937" width="0.7" height="15.0" fill="rgb(231,161,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule (6 samples, 0.12%)')" onmouseout="c()">
+<title>schedule (6 samples, 0.12%)</title><rect x="21.1" y="1841" width="1.4" height="15.0" fill="rgb(210,77,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="257" width="6.4" height="15.0" fill="rgb(215,45,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>_raw_spin_lock (1 samples, 0.02%)</title><rect x="226.4" y="1841" width="0.3" height="15.0" fill="rgb(227,152,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1617" width="6.4" height="15.0" fill="rgb(213,131,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="155.7" y="1857" width="0.2" height="15.0" fill="rgb(251,208,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('change_protection (4 samples, 0.08%)')" onmouseout="c()">
+<title>change_protection (4 samples, 0.08%)</title><rect x="16.4" y="1937" width="1.0" height="15.0" fill="rgb(221,85,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="577" width="6.4" height="15.0" fill="rgb(237,131,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (2 samples, 0.04%)')" onmouseout="c()">
+<title>__clone (2 samples, 0.04%)</title><rect x="10.2" y="113" width="0.5" height="15.0" fill="rgb(234,153,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (1 samples, 0.02%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (1 samples, 0.02%)</title><rect x="10.2" y="49" width="0.3" height="15.0" fill="rgb(253,112,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="353" width="6.4" height="15.0" fill="rgb(247,64,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (1 samples, 0.02%)</title><rect x="142.7" y="1905" width="0.2" height="15.0" fill="rgb(240,205,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__GI___munmap (1 samples, 0.02%)')" onmouseout="c()">
+<title>__GI___munmap (1 samples, 0.02%)</title><rect x="15.4" y="177" width="0.3" height="15.0" fill="rgb(216,105,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('select_task_rq_fair (85 samples, 1.77%)')" onmouseout="c()">
+<title>select_task_rq_fair (85 samples, 1.77%)</title><rect x="990.5" y="1873" width="20.9" height="15.0" fill="rgb(240,52,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (6 samples, 0.12%)')" onmouseout="c()">
+<title>__schedule (6 samples, 0.12%)</title><rect x="21.1" y="1825" width="1.4" height="15.0" fill="rgb(210,18,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1201" width="6.4" height="15.0" fill="rgb(212,46,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__run_hrtimer (2 samples, 0.04%)')" onmouseout="c()">
+<title>__run_hrtimer (2 samples, 0.04%)</title><rect x="1189.0" y="1937" width="0.5" height="15.0" fill="rgb(229,85,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_vmas (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_vmas (1 samples, 0.02%)</title><rect x="15.4" y="81" width="0.3" height="15.0" fill="rgb(233,45,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pick_next_entity (15 samples, 0.31%)')" onmouseout="c()">
+<title>pick_next_entity (15 samples, 0.31%)</title><rect x="232.6" y="1857" width="3.7" height="15.0" fill="rgb(210,141,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('prepare_binprm (1 samples, 0.02%)')" onmouseout="c()">
+<title>prepare_binprm (1 samples, 0.02%)</title><rect x="19.3" y="1857" width="0.3" height="15.0" fill="rgb(221,155,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (14 samples, 0.29%)')" onmouseout="c()">
+<title>update_curr (14 samples, 0.29%)</title><rect x="168.2" y="1777" width="3.5" height="15.0" fill="rgb(217,17,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_load (3 samples, 0.06%)')" onmouseout="c()">
+<title>update_cfs_load (3 samples, 0.06%)</title><rect x="162.6" y="1809" width="0.7" height="15.0" fill="rgb(246,26,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (10 samples, 0.21%)')" onmouseout="c()">
+<title>update_curr (10 samples, 0.21%)</title><rect x="1026.6" y="1745" width="2.5" height="15.0" fill="rgb(229,50,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hash_futex (52 samples, 1.08%)')" onmouseout="c()">
+<title>hash_futex (52 samples, 1.08%)</title><rect x="441.9" y="1921" width="12.8" height="15.0" fill="rgb(224,112,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="737" width="6.4" height="15.0" fill="rgb(231,11,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__deallocate_stack (1 samples, 0.02%)')" onmouseout="c()">
+<title>__deallocate_stack (1 samples, 0.02%)</title><rect x="18.4" y="2017" width="0.2" height="15.0" fill="rgb(211,15,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_execve (9 samples, 0.19%)')" onmouseout="c()">
+<title>sys_execve (9 samples, 0.19%)</title><rect x="18.8" y="1905" width="2.3" height="15.0" fill="rgb(237,165,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('effective_load.isra.29 (18 samples, 0.37%)')" onmouseout="c()">
+<title>effective_load.isra.29 (18 samples, 0.37%)</title><rect x="1005.0" y="1841" width="4.4" height="15.0" fill="rgb(220,8,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_do_activate.constprop.86 (115 samples, 2.39%)')" onmouseout="c()">
+<title>ttwu_do_activate.constprop.86 (115 samples, 2.39%)</title><rect x="1013.8" y="1857" width="28.3" height="15.0" fill="rgb(239,89,16)" rx="2" ry="2" />
+<text text-anchor="" x="1016.84759525297" y="1867.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >t..</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="881" width="6.4" height="15.0" fill="rgb(208,193,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_dl_deallocate_tls (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_deallocate_tls (1 samples, 0.02%)</title><rect x="17.6" y="2001" width="0.3" height="15.0" fill="rgb(223,107,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_filp_open (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_filp_open (1 samples, 0.02%)</title><rect x="19.1" y="1841" width="0.2" height="15.0" fill="rgb(230,171,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>sys_clone (1 samples, 0.02%)</title><rect x="10.7" y="113" width="0.3" height="15.0" fill="rgb(233,154,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (18 samples, 0.37%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (18 samples, 0.37%)</title><rect x="11.0" y="81" width="4.4" height="15.0" fill="rgb(226,166,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (2 samples, 0.04%)')" onmouseout="c()">
+<title>update_curr (2 samples, 0.04%)</title><rect x="1041.6" y="1809" width="0.5" height="15.0" fill="rgb(231,82,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>_raw_spin_lock (1 samples, 0.02%)</title><rect x="155.7" y="1825" width="0.2" height="15.0" fill="rgb(239,1,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_futex (1,399 samples, 29.13%)')" onmouseout="c()">
+<title>do_futex (1,399 samples, 29.13%)</title><rect x="113.7" y="1953" width="343.7" height="15.0" fill="rgb(240,55,51)" rx="2" ry="2" />
+<text text-anchor="" x="116.676868623777" y="1963.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >do_futex</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="529" width="6.4" height="15.0" fill="rgb(222,168,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('flush_tlb_mm (4 samples, 0.08%)')" onmouseout="c()">
+<title>flush_tlb_mm (4 samples, 0.08%)</title><rect x="16.4" y="1921" width="1.0" height="15.0" fill="rgb(237,33,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__switch_to (9 samples, 0.19%)')" onmouseout="c()">
+<title>__switch_to (9 samples, 0.19%)</title><rect x="85.7" y="1985" width="2.2" height="15.0" fill="rgb(211,3,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (434 samples, 9.04%)')" onmouseout="c()">
+<title>__schedule (434 samples, 9.04%)</title><rect x="143.2" y="1889" width="106.6" height="15.0" fill="rgb(217,223,48)" rx="2" ry="2" />
+<text text-anchor="" x="146.158442640017" y="1899.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__schedule</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1521" width="6.4" height="15.0" fill="rgb(229,19,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>__clone (1 samples, 0.02%)</title><rect x="10.0" y="81" width="0.2" height="15.0" fill="rgb(229,216,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1057" width="6.4" height="15.0" fill="rgb(215,179,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (2 samples, 0.04%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (2 samples, 0.04%)</title><rect x="185.9" y="1825" width="0.5" height="15.0" fill="rgb(232,140,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (5 samples, 0.10%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (5 samples, 0.10%)</title><rect x="23.5" y="1873" width="1.2" height="15.0" fill="rgb(215,170,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1777" width="6.4" height="15.0" fill="rgb(235,74,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1873" width="6.4" height="15.0" fill="rgb(220,88,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="689" width="6.4" height="15.0" fill="rgb(220,42,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (1 samples, 0.02%)</title><rect x="153.7" y="1873" width="0.3" height="15.0" fill="rgb(209,145,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="673" width="6.4" height="15.0" fill="rgb(233,51,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('run_rebalance_domains (1 samples, 0.02%)')" onmouseout="c()">
+<title>run_rebalance_domains (1 samples, 0.02%)</title><rect x="901.6" y="1809" width="0.2" height="15.0" fill="rgb(249,25,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__run_hrtimer (1 samples, 0.02%)')" onmouseout="c()">
+<title>__run_hrtimer (1 samples, 0.02%)</title><rect x="408.7" y="1857" width="0.3" height="15.0" fill="rgb(216,7,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('handle_edge_irq (1 samples, 0.02%)')" onmouseout="c()">
+<title>handle_edge_irq (1 samples, 0.02%)</title><rect x="249.3" y="1825" width="0.2" height="15.0" fill="rgb(214,87,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_dl_load_cache_lookup (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_load_cache_lookup (1 samples, 0.02%)</title><rect x="23.0" y="2017" width="0.3" height="15.0" fill="rgb(208,21,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1009" width="6.4" height="15.0" fill="rgb(229,147,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (24 samples, 0.50%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (24 samples, 0.50%)</title><rect x="258.9" y="1905" width="5.9" height="15.0" fill="rgb(239,23,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (164 samples, 3.41%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (164 samples, 3.41%)</title><rect x="184.4" y="1857" width="40.3" height="15.0" fill="rgb(248,51,21)" rx="2" ry="2" />
+<text text-anchor="" x="187.432646262752" y="1867.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__p..</text>
+</g>
+<g class="func_g" onmouseover="s('x86_pmu_enable (18 samples, 0.37%)')" onmouseout="c()">
+<title>x86_pmu_enable (18 samples, 0.37%)</title><rect x="11.0" y="65" width="4.4" height="15.0" fill="rgb(252,119,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule (1 samples, 0.02%)')" onmouseout="c()">
+<title>schedule (1 samples, 0.02%)</title><rect x="24.7" y="1985" width="0.3" height="15.0" fill="rgb(219,2,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__lll_lock_wait (1,690 samples, 35.19%)')" onmouseout="c()">
+<title>__lll_lock_wait (1,690 samples, 35.19%)</title><rect x="42.9" y="2001" width="415.2" height="15.0" fill="rgb(219,40,2)" rx="2" ry="2" />
+<text text-anchor="" x="45.9210909848012" y="2011.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__lll_lock_wait</text>
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="990.3" y="1873" width="0.2" height="15.0" fill="rgb(254,145,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_unlock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_unlock (1 samples, 0.02%)</title><rect x="224.7" y="1857" width="0.3" height="15.0" fill="rgb(223,207,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_task_tick (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_task_tick (1 samples, 0.02%)</title><rect x="1189.3" y="1873" width="0.2" height="15.0" fill="rgb(225,146,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hrtimer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>hrtimer_interrupt (1 samples, 0.02%)</title><rect x="16.1" y="97" width="0.3" height="15.0" fill="rgb(207,34,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wake_up_state (509 samples, 10.60%)')" onmouseout="c()">
+<title>wake_up_state (509 samples, 10.60%)</title><rect x="919.0" y="1905" width="125.1" height="15.0" fill="rgb(246,207,10)" rx="2" ry="2" />
+<text text-anchor="" x="922.015198834062" y="1915.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >wake_up_state</text>
+</g>
+<g class="func_g" onmouseover="s('update_cfs_shares (34 samples, 0.71%)')" onmouseout="c()">
+<title>update_cfs_shares (34 samples, 0.71%)</title><rect x="163.3" y="1809" width="8.4" height="15.0" fill="rgb(216,111,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (31 samples, 0.65%)')" onmouseout="c()">
+<title>update_curr (31 samples, 0.65%)</title><rect x="171.7" y="1809" width="7.6" height="15.0" fill="rgb(210,194,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__rb_erase_color (1 samples, 0.02%)')" onmouseout="c()">
+<title>__rb_erase_color (1 samples, 0.02%)</title><rect x="237.7" y="1841" width="0.3" height="15.0" fill="rgb(250,88,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock_cpu (3 samples, 0.06%)')" onmouseout="c()">
+<title>sched_clock_cpu (3 samples, 0.06%)</title><rect x="1037.2" y="1793" width="0.7" height="15.0" fill="rgb(208,162,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1073" width="6.4" height="15.0" fill="rgb(246,229,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (229 samples, 4.77%)')" onmouseout="c()">
+<title>__ticket_spin_lock (229 samples, 4.77%)</title><rect x="928.1" y="1857" width="56.3" height="15.0" fill="rgb(235,22,39)" rx="2" ry="2" />
+<text text-anchor="" x="931.105350822403" y="1867.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >__tic..</text>
+</g>
+<g class="func_g" onmouseover="s('__schedule (5 samples, 0.10%)')" onmouseout="c()">
+<title>__schedule (5 samples, 0.10%)</title><rect x="23.5" y="1905" width="1.2" height="15.0" fill="rgb(217,22,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('irq_exit (1 samples, 0.02%)')" onmouseout="c()">
+<title>irq_exit (1 samples, 0.02%)</title><rect x="15.9" y="161" width="0.2" height="15.0" fill="rgb(224,13,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('math_state_restore (1 samples, 0.02%)')" onmouseout="c()">
+<title>math_state_restore (1 samples, 0.02%)</title><rect x="17.4" y="1953" width="0.2" height="15.0" fill="rgb(241,136,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('intel_pmu_enable_all (18 samples, 0.37%)')" onmouseout="c()">
+<title>intel_pmu_enable_all (18 samples, 0.37%)</title><rect x="11.0" y="49" width="4.4" height="15.0" fill="rgb(254,164,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_unlock_irqrestore (3 samples, 0.06%)')" onmouseout="c()">
+<title>_raw_spin_unlock_irqrestore (3 samples, 0.06%)</title><rect x="989.5" y="1873" width="0.8" height="15.0" fill="rgb(240,50,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('reweight_entity (24 samples, 0.50%)')" onmouseout="c()">
+<title>reweight_entity (24 samples, 0.50%)</title><rect x="165.8" y="1793" width="5.9" height="15.0" fill="rgb(254,215,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_vmas (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_vmas (1 samples, 0.02%)</title><rect x="18.6" y="1825" width="0.2" height="15.0" fill="rgb(222,13,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_futex (1,417 samples, 29.50%)')" onmouseout="c()">
+<title>sys_futex (1,417 samples, 29.50%)</title><rect x="110.0" y="1969" width="348.1" height="15.0" fill="rgb(226,70,52)" rx="2" ry="2" />
+<text text-anchor="" x="112.991671871747" y="1979.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >sys_futex</text>
+</g>
+<g class="func_g" onmouseover="s('source_load (8 samples, 0.17%)')" onmouseout="c()">
+<title>source_load (8 samples, 0.17%)</title><rect x="1009.4" y="1841" width="2.0" height="15.0" fill="rgb(247,131,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pthread_mutex_lock@plt (3 samples, 0.06%)')" onmouseout="c()">
+<title>pthread_mutex_lock@plt (3 samples, 0.06%)</title><rect x="1138.7" y="2001" width="0.7" height="15.0" fill="rgb(227,114,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1233" width="6.4" height="15.0" fill="rgb(236,83,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('vfs_open (1 samples, 0.02%)')" onmouseout="c()">
+<title>vfs_open (1 samples, 0.02%)</title><rect x="19.1" y="1777" width="0.2" height="15.0" fill="rgb(244,35,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_dl_sysdep_start (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_sysdep_start (1 samples, 0.02%)</title><rect x="23.3" y="2017" width="0.2" height="15.0" fill="rgb(252,103,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_page_range (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_page_range (1 samples, 0.02%)</title><rect x="18.6" y="1793" width="0.2" height="15.0" fill="rgb(219,183,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (5 samples, 0.10%)')" onmouseout="c()">
+<title>finish_task_switch (5 samples, 0.10%)</title><rect x="23.5" y="1889" width="1.2" height="15.0" fill="rgb(241,115,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (24 samples, 0.50%)')" onmouseout="c()">
+<title>[unknown] (24 samples, 0.50%)</title><rect x="10.0" y="225" width="5.9" height="15.0" fill="rgb(242,119,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1473" width="6.4" height="15.0" fill="rgb(244,54,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock (1 samples, 0.02%)')" onmouseout="c()">
+<title>sched_clock (1 samples, 0.02%)</title><rect x="1036.9" y="1793" width="0.3" height="15.0" fill="rgb(237,82,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wakeup_preempt_entity.isra.37 (2 samples, 0.04%)')" onmouseout="c()">
+<title>wakeup_preempt_entity.isra.37 (2 samples, 0.04%)</title><rect x="1041.1" y="1793" width="0.5" height="15.0" fill="rgb(247,163,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (5 samples, 0.10%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (5 samples, 0.10%)</title><rect x="21.3" y="1777" width="1.2" height="15.0" fill="rgb(225,170,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_stat (6 samples, 0.12%)')" onmouseout="c()">
+<title>ttwu_stat (6 samples, 0.12%)</title><rect x="1042.1" y="1873" width="1.5" height="15.0" fill="rgb(230,196,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zap_pte_range (1 samples, 0.02%)')" onmouseout="c()">
+<title>zap_pte_range (1 samples, 0.02%)</title><rect x="18.6" y="1777" width="0.2" height="15.0" fill="rgb(252,220,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mprotect (1 samples, 0.02%)')" onmouseout="c()">
+<title>mprotect (1 samples, 0.02%)</title><rect x="23.3" y="1985" width="0.2" height="15.0" fill="rgb(232,26,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_fork (1 samples, 0.02%)')" onmouseout="c()">
+<title>ret_from_fork (1 samples, 0.02%)</title><rect x="15.7" y="193" width="0.2" height="15.0" fill="rgb(242,123,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_out (18 samples, 0.37%)')" onmouseout="c()">
+<title>perf_event_context_sched_out (18 samples, 0.37%)</title><rect x="226.7" y="1841" width="4.4" height="15.0" fill="rgb(235,189,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="897" width="6.4" height="15.0" fill="rgb(243,134,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="2001" width="6.4" height="15.0" fill="rgb(244,215,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_erase (12 samples, 0.25%)')" onmouseout="c()">
+<title>rb_erase (12 samples, 0.25%)</title><rect x="238.0" y="1841" width="2.9" height="15.0" fill="rgb(254,80,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('kmem_cache_alloc_node (1 samples, 0.02%)')" onmouseout="c()">
+<title>kmem_cache_alloc_node (1 samples, 0.02%)</title><rect x="10.7" y="33" width="0.3" height="15.0" fill="rgb(212,73,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1089" width="6.4" height="15.0" fill="rgb(245,83,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wait_for_completion (6 samples, 0.12%)')" onmouseout="c()">
+<title>wait_for_completion (6 samples, 0.12%)</title><rect x="19.6" y="1825" width="1.5" height="15.0" fill="rgb(234,52,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('iwl_trans_pcie_read32 (1 samples, 0.02%)')" onmouseout="c()">
+<title>iwl_trans_pcie_read32 (1 samples, 0.02%)</title><rect x="249.3" y="1761" width="0.2" height="15.0" fill="rgb(245,35,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock_irqsave (21 samples, 0.44%)')" onmouseout="c()">
+<title>_raw_spin_lock_irqsave (21 samples, 0.44%)</title><rect x="984.4" y="1873" width="5.1" height="15.0" fill="rgb(224,101,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (1 samples, 0.02%)</title><rect x="16.1" y="113" width="0.3" height="15.0" fill="rgb(250,55,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sysret_careful (1 samples, 0.02%)')" onmouseout="c()">
+<title>sysret_careful (1 samples, 0.02%)</title><rect x="22.8" y="2001" width="0.2" height="15.0" fill="rgb(250,66,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rcu_note_context_switch (3 samples, 0.06%)')" onmouseout="c()">
+<title>rcu_note_context_switch (3 samples, 0.06%)</title><rect x="249.8" y="1889" width="0.7" height="15.0" fill="rgb(208,89,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (26 samples, 0.54%)')" onmouseout="c()">
+<title>update_curr (26 samples, 0.54%)</title><rect x="1029.1" y="1777" width="6.4" height="15.0" fill="rgb(247,71,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (6 samples, 0.12%)')" onmouseout="c()">
+<title>system_call_fastpath (6 samples, 0.12%)</title><rect x="21.1" y="1937" width="1.4" height="15.0" fill="rgb(233,140,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="753" width="6.4" height="15.0" fill="rgb(206,14,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (23 samples, 0.48%)')" onmouseout="c()">
+<title>[unknown] (23 samples, 0.48%)</title><rect x="10.0" y="209" width="5.7" height="15.0" fill="rgb(223,192,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_cond_resched (6 samples, 0.12%)')" onmouseout="c()">
+<title>_cond_resched (6 samples, 0.12%)</title><rect x="19.6" y="1793" width="1.5" height="15.0" fill="rgb(251,156,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_ctx_unlock (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_ctx_unlock (1 samples, 0.02%)</title><rect x="21.1" y="1777" width="0.2" height="15.0" fill="rgb(214,85,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('stub_clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>stub_clone (1 samples, 0.02%)</title><rect x="10.7" y="129" width="0.3" height="15.0" fill="rgb(223,100,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_insert_color (1 samples, 0.02%)')" onmouseout="c()">
+<title>rb_insert_color (1 samples, 0.02%)</title><rect x="245.4" y="1825" width="0.2" height="15.0" fill="rgb(238,45,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('put_prev_entity (9 samples, 0.19%)')" onmouseout="c()">
+<title>put_prev_entity (9 samples, 0.19%)</title><rect x="244.4" y="1857" width="2.2" height="15.0" fill="rgb(230,158,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__bitmap_intersects (2 samples, 0.04%)')" onmouseout="c()">
+<title>__bitmap_intersects (2 samples, 0.04%)</title><rect x="998.4" y="1841" width="0.5" height="15.0" fill="rgb(237,150,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_region (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_region (1 samples, 0.02%)</title><rect x="15.4" y="97" width="0.3" height="15.0" fill="rgb(227,145,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1121" width="6.4" height="15.0" fill="rgb(205,36,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (6 samples, 0.12%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (6 samples, 0.12%)</title><rect x="19.6" y="1729" width="1.5" height="15.0" fill="rgb(214,210,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait_queue_me (457 samples, 9.51%)')" onmouseout="c()">
+<title>futex_wait_queue_me (457 samples, 9.51%)</title><rect x="138.2" y="1921" width="112.3" height="15.0" fill="rgb(247,6,50)" rx="2" ry="2" />
+<text text-anchor="" x="141.244846970643" y="1931.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >futex_wait_qu..</text>
+</g>
+<g class="func_g" onmouseover="s('copy_user_generic_string (76 samples, 1.58%)')" onmouseout="c()">
+<title>copy_user_generic_string (76 samples, 1.58%)</title><rect x="409.0" y="1905" width="18.7" height="15.0" fill="rgb(210,178,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('search_binary_handler (1 samples, 0.02%)')" onmouseout="c()">
+<title>search_binary_handler (1 samples, 0.02%)</title><rect x="18.6" y="1937" width="0.2" height="15.0" fill="rgb(210,134,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_exec (6 samples, 0.12%)')" onmouseout="c()">
+<title>sched_exec (6 samples, 0.12%)</title><rect x="19.6" y="1857" width="1.5" height="15.0" fill="rgb(226,207,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key_refs.isra.10 (5 samples, 0.10%)')" onmouseout="c()">
+<title>get_futex_key_refs.isra.10 (5 samples, 0.10%)</title><rect x="435.5" y="1905" width="1.2" height="15.0" fill="rgb(235,69,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_sync_stat (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_sync_stat (1 samples, 0.02%)</title><rect x="230.9" y="1825" width="0.2" height="15.0" fill="rgb(217,30,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_cfs_shares (3 samples, 0.06%)')" onmouseout="c()">
+<title>update_cfs_shares (3 samples, 0.06%)</title><rect x="1035.5" y="1793" width="0.7" height="15.0" fill="rgb(211,17,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__read_nocancel (6 samples, 0.12%)')" onmouseout="c()">
+<title>__read_nocancel (6 samples, 0.12%)</title><rect x="21.1" y="1953" width="1.4" height="15.0" fill="rgb(214,20,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_sync_read (6 samples, 0.12%)')" onmouseout="c()">
+<title>do_sync_read (6 samples, 0.12%)</title><rect x="21.1" y="1889" width="1.4" height="15.0" fill="rgb(243,217,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__rb_rotate_left (1 samples, 0.02%)')" onmouseout="c()">
+<title>__rb_rotate_left (1 samples, 0.02%)</title><rect x="240.7" y="1825" width="0.2" height="15.0" fill="rgb(249,19,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__enqueue_entity (16 samples, 0.33%)')" onmouseout="c()">
+<title>__enqueue_entity (16 samples, 0.33%)</title><rect x="1016.8" y="1777" width="3.9" height="15.0" fill="rgb(247,31,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1185" width="6.4" height="15.0" fill="rgb(220,95,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1825" width="6.4" height="15.0" fill="rgb(252,71,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_value_locked (6 samples, 0.12%)')" onmouseout="c()">
+<title>get_futex_value_locked (6 samples, 0.12%)</title><rect x="440.4" y="1921" width="1.5" height="15.0" fill="rgb(213,161,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rebalance_domains (1 samples, 0.02%)')" onmouseout="c()">
+<title>rebalance_domains (1 samples, 0.02%)</title><rect x="901.6" y="1793" width="0.2" height="15.0" fill="rgb(209,46,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__dentry_open (1 samples, 0.02%)')" onmouseout="c()">
+<title>__dentry_open (1 samples, 0.02%)</title><rect x="19.1" y="1761" width="0.2" height="15.0" fill="rgb(252,155,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('x86_pmu_enable (5 samples, 0.10%)')" onmouseout="c()">
+<title>x86_pmu_enable (5 samples, 0.10%)</title><rect x="23.5" y="1841" width="1.2" height="15.0" fill="rgb(209,167,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (7 samples, 0.15%)')" onmouseout="c()">
+<title>_raw_spin_lock (7 samples, 0.15%)</title><rect x="229.1" y="1825" width="1.8" height="15.0" fill="rgb(242,178,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('intel_pmu_enable_all (155 samples, 3.23%)')" onmouseout="c()">
+<title>intel_pmu_enable_all (155 samples, 3.23%)</title><rect x="186.6" y="1809" width="38.1" height="15.0" fill="rgb(228,137,53)" rx="2" ry="2" />
+<text text-anchor="" x="189.64376431397" y="1819.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >int..</text>
+</g>
+<g class="func_g" onmouseover="s('all (4,803 samples, 100%)')" onmouseout="c()">
+<title>all (4,803 samples, 100%)</title><rect x="10.0" y="2033" width="1180.0" height="15.0" fill="rgb(207,201,53)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="2043.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('intel_pmu_enable_all (6 samples, 0.12%)')" onmouseout="c()">
+<title>intel_pmu_enable_all (6 samples, 0.12%)</title><rect x="19.6" y="1681" width="1.5" height="15.0" fill="rgb(247,187,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_dentry_open (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_dentry_open (1 samples, 0.02%)</title><rect x="19.1" y="1745" width="0.2" height="15.0" fill="rgb(223,47,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dequeue_entity (81 samples, 1.69%)')" onmouseout="c()">
+<title>dequeue_entity (81 samples, 1.69%)</title><rect x="159.4" y="1825" width="19.9" height="15.0" fill="rgb(241,204,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('enqueue_task_fair (1 samples, 0.02%)')" onmouseout="c()">
+<title>enqueue_task_fair (1 samples, 0.02%)</title><rect x="1037.9" y="1825" width="0.3" height="15.0" fill="rgb(222,42,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (1 samples, 0.02%)')" onmouseout="c()">
+<title>__schedule (1 samples, 0.02%)</title><rect x="22.8" y="1969" width="0.2" height="15.0" fill="rgb(241,162,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_stat (2 samples, 0.04%)')" onmouseout="c()">
+<title>ttwu_stat (2 samples, 0.04%)</title><rect x="1043.6" y="1889" width="0.5" height="15.0" fill="rgb(233,202,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="625" width="6.4" height="15.0" fill="rgb(224,85,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_lock (1 samples, 0.02%)</title><rect x="19.1" y="1697" width="0.2" height="15.0" fill="rgb(243,218,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__run_hrtimer (1 samples, 0.02%)')" onmouseout="c()">
+<title>__run_hrtimer (1 samples, 0.02%)</title><rect x="15.7" y="113" width="0.2" height="15.0" fill="rgb(216,111,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (1 samples, 0.02%)')" onmouseout="c()">
+<title>system_call_fastpath (1 samples, 0.02%)</title><rect x="15.4" y="161" width="0.3" height="15.0" fill="rgb(234,204,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('tick_sched_timer (2 samples, 0.04%)')" onmouseout="c()">
+<title>tick_sched_timer (2 samples, 0.04%)</title><rect x="1189.0" y="1921" width="0.5" height="15.0" fill="rgb(218,176,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>__clone (1 samples, 0.02%)</title><rect x="10.7" y="145" width="0.3" height="15.0" fill="rgb(222,165,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rcu_note_context_switch (10 samples, 0.21%)')" onmouseout="c()">
+<title>rcu_note_context_switch (10 samples, 0.21%)</title><rect x="246.6" y="1873" width="2.4" height="15.0" fill="rgb(242,93,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_intr (2 samples, 0.04%)')" onmouseout="c()">
+<title>ret_from_intr (2 samples, 0.04%)</title><rect x="249.0" y="1873" width="0.5" height="15.0" fill="rgb(216,154,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__bitmap_intersects (1 samples, 0.02%)')" onmouseout="c()">
+<title>__bitmap_intersects (1 samples, 0.02%)</title><rect x="994.9" y="1857" width="0.3" height="15.0" fill="rgb(227,156,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1281" width="6.4" height="15.0" fill="rgb(253,65,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_futex (5 samples, 0.10%)')" onmouseout="c()">
+<title>do_futex (5 samples, 0.10%)</title><rect x="23.5" y="1969" width="1.2" height="15.0" fill="rgb(219,41,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="16.1" y="129" width="0.3" height="15.0" fill="rgb(211,117,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('default_spin_lock_flags (18 samples, 0.37%)')" onmouseout="c()">
+<title>default_spin_lock_flags (18 samples, 0.37%)</title><rect x="985.1" y="1857" width="4.4" height="15.0" fill="rgb(241,0,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="817" width="6.4" height="15.0" fill="rgb(245,67,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_device_not_available (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_device_not_available (1 samples, 0.02%)</title><rect x="17.4" y="1969" width="0.2" height="15.0" fill="rgb(248,73,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1489" width="6.4" height="15.0" fill="rgb(231,7,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule (437 samples, 9.10%)')" onmouseout="c()">
+<title>schedule (437 samples, 9.10%)</title><rect x="143.2" y="1905" width="107.3" height="15.0" fill="rgb(213,150,29)" rx="2" ry="2" />
+<text text-anchor="" x="146.158442640017" y="1915.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >schedule</text>
+</g>
+<g class="func_g" onmouseover="s('rb_insert_color (1 samples, 0.02%)')" onmouseout="c()">
+<title>rb_insert_color (1 samples, 0.02%)</title><rect x="1023.2" y="1777" width="0.2" height="15.0" fill="rgb(211,227,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (1 samples, 0.02%)')" onmouseout="c()">
+<title>finish_task_switch (1 samples, 0.02%)</title><rect x="10.0" y="33" width="0.2" height="15.0" fill="rgb(235,14,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pick_next_entity (1 samples, 0.02%)')" onmouseout="c()">
+<title>pick_next_entity (1 samples, 0.02%)</title><rect x="231.1" y="1873" width="0.3" height="15.0" fill="rgb(219,29,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="993" width="6.4" height="15.0" fill="rgb(232,105,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('try_to_wake_up (507 samples, 10.56%)')" onmouseout="c()">
+<title>try_to_wake_up (507 samples, 10.56%)</title><rect x="919.0" y="1889" width="124.6" height="15.0" fill="rgb(241,147,51)" rx="2" ry="2" />
+<text text-anchor="" x="922.015198834062" y="1899.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >try_to_wake_up</text>
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (18 samples, 0.37%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (18 samples, 0.37%)</title><rect x="11.0" y="97" width="4.4" height="15.0" fill="rgb(246,218,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="305" width="6.4" height="15.0" fill="rgb(251,132,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wake_up_process (1 samples, 0.02%)')" onmouseout="c()">
+<title>wake_up_process (1 samples, 0.02%)</title><rect x="16.1" y="49" width="0.3" height="15.0" fill="rgb(249,13,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="15.7" y="161" width="0.2" height="15.0" fill="rgb(205,76,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_shares (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_shares (1 samples, 0.02%)</title><rect x="225.5" y="1857" width="0.2" height="15.0" fill="rgb(205,206,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>sys_clone (1 samples, 0.02%)</title><rect x="16.1" y="209" width="0.3" height="15.0" fill="rgb(207,146,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1729" width="6.4" height="15.0" fill="rgb(229,76,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hash_futex (6 samples, 0.12%)')" onmouseout="c()">
+<title>hash_futex (6 samples, 0.12%)</title><rect x="913.1" y="1921" width="1.5" height="15.0" fill="rgb(214,220,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_futex (6 samples, 0.12%)')" onmouseout="c()">
+<title>do_futex (6 samples, 0.12%)</title><rect x="108.5" y="1969" width="1.5" height="15.0" fill="rgb(243,50,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('drop_futex_key_refs.isra.13 (2 samples, 0.04%)')" onmouseout="c()">
+<title>drop_futex_key_refs.isra.13 (2 samples, 0.04%)</title><rect x="137.8" y="1921" width="0.4" height="15.0" fill="rgb(218,211,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('clear_buddies (4 samples, 0.08%)')" onmouseout="c()">
+<title>clear_buddies (4 samples, 0.08%)</title><rect x="235.0" y="1841" width="1.0" height="15.0" fill="rgb(227,222,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1985" width="6.4" height="15.0" fill="rgb(225,219,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('clear_buddies (1 samples, 0.02%)')" onmouseout="c()">
+<title>clear_buddies (1 samples, 0.02%)</title><rect x="232.3" y="1857" width="0.3" height="15.0" fill="rgb(211,183,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1761" width="6.4" height="15.0" fill="rgb(234,186,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_flush_tlb_others (4 samples, 0.08%)')" onmouseout="c()">
+<title>native_flush_tlb_others (4 samples, 0.08%)</title><rect x="16.4" y="1905" width="1.0" height="15.0" fill="rgb(208,165,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('vfs_read (6 samples, 0.12%)')" onmouseout="c()">
+<title>vfs_read (6 samples, 0.12%)</title><rect x="21.1" y="1905" width="1.4" height="15.0" fill="rgb(212,198,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (4 samples, 0.08%)')" onmouseout="c()">
+<title>[unknown] (4 samples, 0.08%)</title><rect x="10.0" y="161" width="1.0" height="15.0" fill="rgb(245,226,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_execve_common.isra.30 (1 samples, 0.02%)')" onmouseout="c()">
+<title>do_execve_common.isra.30 (1 samples, 0.02%)</title><rect x="18.6" y="1953" width="0.2" height="15.0" fill="rgb(208,141,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock (1 samples, 0.02%)')" onmouseout="c()">
+<title>sched_clock (1 samples, 0.02%)</title><rect x="1037.7" y="1777" width="0.2" height="15.0" fill="rgb(235,36,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_read_tsc (2 samples, 0.04%)')" onmouseout="c()">
+<title>native_read_tsc (2 samples, 0.04%)</title><rect x="183.4" y="1777" width="0.5" height="15.0" fill="rgb(251,208,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_stats_wait_end (9 samples, 0.19%)')" onmouseout="c()">
+<title>update_stats_wait_end (9 samples, 0.19%)</title><rect x="241.7" y="1841" width="2.2" height="15.0" fill="rgb(209,14,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="721" width="6.4" height="15.0" fill="rgb(210,189,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sched_clock_cpu (4 samples, 0.08%)')" onmouseout="c()">
+<title>sched_clock_cpu (4 samples, 0.08%)</title><rect x="183.0" y="1825" width="0.9" height="15.0" fill="rgb(247,1,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (3 samples, 0.06%)')" onmouseout="c()">
+<title>__ticket_spin_lock (3 samples, 0.06%)</title><rect x="1013.1" y="1841" width="0.7" height="15.0" fill="rgb(245,49,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('handle_irq_event (1 samples, 0.02%)')" onmouseout="c()">
+<title>handle_irq_event (1 samples, 0.02%)</title><rect x="249.3" y="1809" width="0.2" height="15.0" fill="rgb(234,37,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1697" width="6.4" height="15.0" fill="rgb(227,180,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="321" width="6.4" height="15.0" fill="rgb(247,114,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_next (3 samples, 0.06%)')" onmouseout="c()">
+<title>rb_next (3 samples, 0.06%)</title><rect x="240.9" y="1841" width="0.8" height="15.0" fill="rgb(229,17,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('irq_exit (1 samples, 0.02%)')" onmouseout="c()">
+<title>irq_exit (1 samples, 0.02%)</title><rect x="901.6" y="1873" width="0.2" height="15.0" fill="rgb(215,134,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (6 samples, 0.12%)')" onmouseout="c()">
+<title>finish_task_switch (6 samples, 0.12%)</title><rect x="19.6" y="1745" width="1.5" height="15.0" fill="rgb(211,0,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1457" width="6.4" height="15.0" fill="rgb(240,157,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="545" width="6.4" height="15.0" fill="rgb(252,200,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('schedule_tail (1 samples, 0.02%)')" onmouseout="c()">
+<title>schedule_tail (1 samples, 0.02%)</title><rect x="15.9" y="209" width="0.2" height="15.0" fill="rgb(220,204,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unmap_page_range (1 samples, 0.02%)')" onmouseout="c()">
+<title>unmap_page_range (1 samples, 0.02%)</title><rect x="15.4" y="49" width="0.3" height="15.0" fill="rgb(248,199,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait (5 samples, 0.10%)')" onmouseout="c()">
+<title>futex_wait (5 samples, 0.10%)</title><rect x="23.5" y="1953" width="1.2" height="15.0" fill="rgb(209,224,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_value_locked (11 samples, 0.23%)')" onmouseout="c()">
+<title>get_futex_value_locked (11 samples, 0.23%)</title><rect x="436.7" y="1905" width="2.7" height="15.0" fill="rgb(240,62,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('call_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>call_softirq (1 samples, 0.02%)</title><rect x="15.9" y="129" width="0.2" height="15.0" fill="rgb(245,37,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('call_timer_fn (1 samples, 0.02%)')" onmouseout="c()">
+<title>call_timer_fn (1 samples, 0.02%)</title><rect x="15.9" y="81" width="0.2" height="15.0" fill="rgb(212,223,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__schedule (5 samples, 0.10%)')" onmouseout="c()">
+<title>__schedule (5 samples, 0.10%)</title><rect x="84.4" y="1985" width="1.3" height="15.0" fill="rgb(240,130,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_dl_lookup_symbol_x (1 samples, 0.02%)')" onmouseout="c()">
+<title>_dl_lookup_symbol_x (1 samples, 0.02%)</title><rect x="17.9" y="1985" width="0.2" height="15.0" fill="rgb(222,160,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="961" width="6.4" height="15.0" fill="rgb(244,73,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="369" width="6.4" height="15.0" fill="rgb(229,122,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wake (2,133 samples, 44.41%)')" onmouseout="c()">
+<title>futex_wake (2,133 samples, 44.41%)</title><rect x="520.0" y="1937" width="524.1" height="15.0" fill="rgb(223,117,24)" rx="2" ry="2" />
+<text text-anchor="" x="523.031230480949" y="1947.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >futex_wake</text>
+</g>
+<g class="func_g" onmouseover="s('enqueue_task (2 samples, 0.04%)')" onmouseout="c()">
+<title>enqueue_task (2 samples, 0.04%)</title><rect x="1038.2" y="1841" width="0.5" height="15.0" fill="rgb(226,48,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (231 samples, 4.81%)')" onmouseout="c()">
+<title>_raw_spin_lock (231 samples, 4.81%)</title><rect x="927.6" y="1873" width="56.8" height="15.0" fill="rgb(252,75,24)" rx="2" ry="2" />
+<text text-anchor="" x="930.613991255465" y="1883.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >_raw_s..</text>
+</g>
+<g class="func_g" onmouseover="s('mmput.part.20 (1 samples, 0.02%)')" onmouseout="c()">
+<title>mmput.part.20 (1 samples, 0.02%)</title><rect x="18.6" y="1857" width="0.2" height="15.0" fill="rgb(230,87,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('activate_task (98 samples, 2.04%)')" onmouseout="c()">
+<title>activate_task (98 samples, 2.04%)</title><rect x="1014.1" y="1841" width="24.1" height="15.0" fill="rgb(209,34,34)" rx="2" ry="2" />
+<text text-anchor="" x="1017.09327503644" y="1851.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >a..</text>
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="337" width="6.4" height="15.0" fill="rgb(246,17,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (3 samples, 0.06%)')" onmouseout="c()">
+<title>[unknown] (3 samples, 0.06%)</title><rect x="10.0" y="129" width="0.7" height="15.0" fill="rgb(213,48,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('cpumask_next_and (1 samples, 0.02%)')" onmouseout="c()">
+<title>cpumask_next_and (1 samples, 0.02%)</title><rect x="901.6" y="1713" width="0.2" height="15.0" fill="rgb(238,105,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('AddThings (46 samples, 0.96%)')" onmouseout="c()">
+<title>AddThings (46 samples, 0.96%)</title><rect x="25.0" y="2001" width="11.3" height="15.0" fill="rgb(213,220,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__strlen_sse2_pminub (1 samples, 0.02%)')" onmouseout="c()">
+<title>__strlen_sse2_pminub (1 samples, 0.02%)</title><rect x="17.4" y="2001" width="0.2" height="15.0" fill="rgb(238,9,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('enqueue_entity (83 samples, 1.73%)')" onmouseout="c()">
+<title>enqueue_entity (83 samples, 1.73%)</title><rect x="1015.1" y="1793" width="20.4" height="15.0" fill="rgb(211,150,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__perf_event_task_sched_in (6 samples, 0.12%)')" onmouseout="c()">
+<title>__perf_event_task_sched_in (6 samples, 0.12%)</title><rect x="21.1" y="1793" width="1.4" height="15.0" fill="rgb(237,213,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wake (6 samples, 0.12%)')" onmouseout="c()">
+<title>futex_wake (6 samples, 0.12%)</title><rect x="1060.8" y="1953" width="1.4" height="15.0" fill="rgb(248,228,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('set_next_buddy (2 samples, 0.04%)')" onmouseout="c()">
+<title>set_next_buddy (2 samples, 0.04%)</title><rect x="179.3" y="1825" width="0.5" height="15.0" fill="rgb(251,53,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hrtimer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>hrtimer_interrupt (1 samples, 0.02%)</title><rect x="408.7" y="1873" width="0.3" height="15.0" fill="rgb(210,196,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (22 samples, 0.46%)')" onmouseout="c()">
+<title>[unknown] (22 samples, 0.46%)</title><rect x="10.0" y="177" width="5.4" height="15.0" fill="rgb(230,82,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (5 samples, 0.10%)')" onmouseout="c()">
+<title>native_write_msr_safe (5 samples, 0.10%)</title><rect x="23.5" y="1809" width="1.2" height="15.0" fill="rgb(213,26,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('x86_pmu_enable (156 samples, 3.25%)')" onmouseout="c()">
+<title>x86_pmu_enable (156 samples, 3.25%)</title><rect x="186.4" y="1825" width="38.3" height="15.0" fill="rgb(234,146,52)" rx="2" ry="2" />
+<text text-anchor="" x="189.398084530502" y="1835.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >x86..</text>
+</g>
+<g class="func_g" onmouseover="s('select_idle_sibling (27 samples, 0.56%)')" onmouseout="c()">
+<title>select_idle_sibling (27 samples, 0.56%)</title><rect x="995.9" y="1857" width="6.6" height="15.0" fill="rgb(211,14,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('nameidata_to_filp (1 samples, 0.02%)')" onmouseout="c()">
+<title>nameidata_to_filp (1 samples, 0.02%)</title><rect x="19.1" y="1793" width="0.2" height="15.0" fill="rgb(238,142,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_curr (1 samples, 0.02%)</title><rect x="181.0" y="1825" width="0.2" height="15.0" fill="rgb(242,198,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apparmor_bprm_set_creds (1 samples, 0.02%)')" onmouseout="c()">
+<title>apparmor_bprm_set_creds (1 samples, 0.02%)</title><rect x="19.3" y="1825" width="0.3" height="15.0" fill="rgb(232,45,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ttwu_do_activate.constprop.86 (1 samples, 0.02%)')" onmouseout="c()">
+<title>ttwu_do_activate.constprop.86 (1 samples, 0.02%)</title><rect x="1011.4" y="1873" width="0.2" height="15.0" fill="rgb(230,224,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_futex (6 samples, 0.12%)')" onmouseout="c()">
+<title>do_futex (6 samples, 0.12%)</title><rect x="504.1" y="1969" width="1.4" height="15.0" fill="rgb(219,155,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mmput (1 samples, 0.02%)')" onmouseout="c()">
+<title>mmput (1 samples, 0.02%)</title><rect x="18.6" y="1873" width="0.2" height="15.0" fill="rgb(238,205,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('get_futex_key_refs.isra.10 (4 samples, 0.08%)')" onmouseout="c()">
+<title>get_futex_key_refs.isra.10 (4 samples, 0.08%)</title><rect x="912.1" y="1921" width="1.0" height="15.0" fill="rgb(229,229,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('hrtimer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>hrtimer_interrupt (1 samples, 0.02%)</title><rect x="155.7" y="1841" width="0.2" height="15.0" fill="rgb(242,142,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="657" width="6.4" height="15.0" fill="rgb(232,220,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_is_locked (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_is_locked (1 samples, 0.02%)</title><rect x="918.5" y="1905" width="0.3" height="15.0" fill="rgb(211,84,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ret_from_fork (18 samples, 0.37%)')" onmouseout="c()">
+<title>ret_from_fork (18 samples, 0.37%)</title><rect x="11.0" y="145" width="4.4" height="15.0" fill="rgb(233,11,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('handle_irq_event_percpu (1 samples, 0.02%)')" onmouseout="c()">
+<title>handle_irq_event_percpu (1 samples, 0.02%)</title><rect x="249.3" y="1793" width="0.2" height="15.0" fill="rgb(236,28,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait (3 samples, 0.06%)')" onmouseout="c()">
+<title>futex_wait (3 samples, 0.06%)</title><rect x="457.4" y="1953" width="0.7" height="15.0" fill="rgb(233,15,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_curr (1 samples, 0.02%)</title><rect x="1040.9" y="1793" width="0.2" height="15.0" fill="rgb(212,221,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="433" width="6.4" height="15.0" fill="rgb(231,115,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('copy_process.part.22 (1 samples, 0.02%)')" onmouseout="c()">
+<title>copy_process.part.22 (1 samples, 0.02%)</title><rect x="16.1" y="161" width="0.3" height="15.0" fill="rgb(234,55,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1041" width="6.4" height="15.0" fill="rgb(244,41,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="609" width="6.4" height="15.0" fill="rgb(212,137,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_next (3 samples, 0.06%)')" onmouseout="c()">
+<title>rb_next (3 samples, 0.06%)</title><rect x="236.5" y="1857" width="0.8" height="15.0" fill="rgb(241,72,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (1 samples, 0.02%)')" onmouseout="c()">
+<title>update_curr (1 samples, 0.02%)</title><rect x="1036.2" y="1793" width="0.3" height="15.0" fill="rgb(247,126,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('delayed_work_timer_fn (1 samples, 0.02%)')" onmouseout="c()">
+<title>delayed_work_timer_fn (1 samples, 0.02%)</title><rect x="15.9" y="65" width="0.2" height="15.0" fill="rgb(221,17,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_curr (4 samples, 0.08%)')" onmouseout="c()">
+<title>update_curr (4 samples, 0.08%)</title><rect x="245.6" y="1841" width="1.0" height="15.0" fill="rgb(210,133,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('calc_delta_mine (2 samples, 0.04%)')" onmouseout="c()">
+<title>calc_delta_mine (2 samples, 0.04%)</title><rect x="171.2" y="1761" width="0.5" height="15.0" fill="rgb(251,76,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_sched_clock (1 samples, 0.02%)')" onmouseout="c()">
+<title>native_sched_clock (1 samples, 0.02%)</title><rect x="1037.7" y="1761" width="0.2" height="15.0" fill="rgb(233,3,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('wake_affine (36 samples, 0.75%)')" onmouseout="c()">
+<title>wake_affine (36 samples, 0.75%)</title><rect x="1002.5" y="1857" width="8.9" height="15.0" fill="rgb(231,103,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('sys_execve (1 samples, 0.02%)')" onmouseout="c()">
+<title>sys_execve (1 samples, 0.02%)</title><rect x="18.6" y="1985" width="0.2" height="15.0" fill="rgb(215,68,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (24 samples, 0.50%)')" onmouseout="c()">
+<title>[unknown] (24 samples, 0.50%)</title><rect x="10.0" y="241" width="5.9" height="15.0" fill="rgb(242,174,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__lll_unlock_wake (1 samples, 0.02%)')" onmouseout="c()">
+<title>__lll_unlock_wake (1 samples, 0.02%)</title><rect x="22.8" y="2017" width="0.2" height="15.0" fill="rgb(250,178,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('smp_apic_timer_interrupt (2 samples, 0.04%)')" onmouseout="c()">
+<title>smp_apic_timer_interrupt (2 samples, 0.04%)</title><rect x="1189.0" y="1969" width="0.5" height="15.0" fill="rgb(222,71,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="15.9" y="193" width="0.2" height="15.0" fill="rgb(235,90,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dl_main (1 samples, 0.02%)')" onmouseout="c()">
+<title>dl_main (1 samples, 0.02%)</title><rect x="23.3" y="2001" width="0.2" height="15.0" fill="rgb(238,151,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1297" width="6.4" height="15.0" fill="rgb(245,100,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_L_lock_858 (14 samples, 0.29%)')" onmouseout="c()">
+<title>_L_lock_858 (14 samples, 0.29%)</title><rect x="36.3" y="2001" width="3.4" height="15.0" fill="rgb(219,177,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (11 samples, 0.23%)')" onmouseout="c()">
+<title>__ticket_spin_lock (11 samples, 0.23%)</title><rect x="256.2" y="1905" width="2.7" height="15.0" fill="rgb(225,167,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>_raw_spin_lock (1 samples, 0.02%)</title><rect x="24.7" y="1921" width="0.3" height="15.0" fill="rgb(254,216,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_execve (9 samples, 0.19%)')" onmouseout="c()">
+<title>do_execve (9 samples, 0.19%)</title><rect x="18.8" y="1889" width="2.3" height="15.0" fill="rgb(253,44,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('plist_add (1 samples, 0.02%)')" onmouseout="c()">
+<title>plist_add (1 samples, 0.02%)</title><rect x="142.9" y="1905" width="0.3" height="15.0" fill="rgb(248,208,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('update_rq_clock (11 samples, 0.23%)')" onmouseout="c()">
+<title>update_rq_clock (11 samples, 0.23%)</title><rect x="181.2" y="1841" width="2.7" height="15.0" fill="rgb(231,71,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="913" width="6.4" height="15.0" fill="rgb(210,82,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('retint_careful (1 samples, 0.02%)')" onmouseout="c()">
+<title>retint_careful (1 samples, 0.02%)</title><rect x="24.7" y="2001" width="0.3" height="15.0" fill="rgb(232,90,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_context_sched_in (6 samples, 0.12%)')" onmouseout="c()">
+<title>perf_event_context_sched_in (6 samples, 0.12%)</title><rect x="19.6" y="1713" width="1.5" height="15.0" fill="rgb(233,48,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mprotect_fixup (4 samples, 0.08%)')" onmouseout="c()">
+<title>mprotect_fixup (4 samples, 0.08%)</title><rect x="16.4" y="1953" width="1.0" height="15.0" fill="rgb(251,88,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('intel_pmu_enable_all (5 samples, 0.10%)')" onmouseout="c()">
+<title>intel_pmu_enable_all (5 samples, 0.10%)</title><rect x="21.3" y="1745" width="1.2" height="15.0" fill="rgb(236,161,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__update_cpu_load (1 samples, 0.02%)')" onmouseout="c()">
+<title>__update_cpu_load (1 samples, 0.02%)</title><rect x="408.7" y="1809" width="0.3" height="15.0" fill="rgb(216,116,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1393" width="6.4" height="15.0" fill="rgb(231,20,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (3 samples, 0.06%)')" onmouseout="c()">
+<title>[unknown] (3 samples, 0.06%)</title><rect x="10.0" y="145" width="0.7" height="15.0" fill="rgb(223,134,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_read_tsc (1 samples, 0.02%)')" onmouseout="c()">
+<title>native_read_tsc (1 samples, 0.02%)</title><rect x="183.2" y="1793" width="0.2" height="15.0" fill="rgb(240,2,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (1 samples, 0.02%)')" onmouseout="c()">
+<title>apic_timer_interrupt (1 samples, 0.02%)</title><rect x="901.6" y="1905" width="0.2" height="15.0" fill="rgb(231,190,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_after_swapgs (27 samples, 0.56%)')" onmouseout="c()">
+<title>system_call_after_swapgs (27 samples, 0.56%)</title><rect x="101.6" y="1985" width="6.7" height="15.0" fill="rgb(248,219,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('flush_old_exec (1 samples, 0.02%)')" onmouseout="c()">
+<title>flush_old_exec (1 samples, 0.02%)</title><rect x="18.6" y="1905" width="0.2" height="15.0" fill="rgb(234,62,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__execve (1 samples, 0.02%)')" onmouseout="c()">
+<title>__execve (1 samples, 0.02%)</title><rect x="18.6" y="2017" width="0.2" height="15.0" fill="rgb(242,186,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntput (1 samples, 0.02%)')" onmouseout="c()">
+<title>mntput (1 samples, 0.02%)</title><rect x="23.3" y="1873" width="0.2" height="15.0" fill="rgb(216,101,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__ticket_spin_lock (1 samples, 0.02%)')" onmouseout="c()">
+<title>__ticket_spin_lock (1 samples, 0.02%)</title><rect x="926.9" y="1873" width="0.2" height="15.0" fill="rgb(252,89,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('futex_wait_setup (8 samples, 0.17%)')" onmouseout="c()">
+<title>futex_wait_setup (8 samples, 0.17%)</title><rect x="455.4" y="1937" width="2.0" height="15.0" fill="rgb(239,100,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__unqueue_futex (1 samples, 0.02%)')" onmouseout="c()">
+<title>__unqueue_futex (1 samples, 0.02%)</title><rect x="918.8" y="1905" width="0.2" height="15.0" fill="rgb(226,189,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('finish_task_switch (6 samples, 0.12%)')" onmouseout="c()">
+<title>finish_task_switch (6 samples, 0.12%)</title><rect x="21.1" y="1809" width="1.4" height="15.0" fill="rgb(235,17,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (1 samples, 0.02%)')" onmouseout="c()">
+<title>[unknown] (1 samples, 0.02%)</title><rect x="10.0" y="97" width="0.2" height="15.0" fill="rgb(249,11,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (6 samples, 0.12%)')" onmouseout="c()">
+<title>native_write_msr_safe (6 samples, 0.12%)</title><rect x="19.6" y="1665" width="1.5" height="15.0" fill="rgb(243,89,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="273" width="6.4" height="15.0" fill="rgb(207,84,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__libc_start_main (15 samples, 0.31%)')" onmouseout="c()">
+<title>__libc_start_main (15 samples, 0.31%)</title><rect x="18.8" y="2017" width="3.7" height="15.0" fill="rgb(234,44,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('drop_futex_key_refs.isra.13 (5 samples, 0.10%)')" onmouseout="c()">
+<title>drop_futex_key_refs.isra.13 (5 samples, 0.10%)</title><rect x="901.8" y="1921" width="1.2" height="15.0" fill="rgb(247,57,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1377" width="6.4" height="15.0" fill="rgb(215,151,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (15 samples, 0.31%)')" onmouseout="c()">
+<title>[unknown] (15 samples, 0.31%)</title><rect x="18.8" y="1969" width="3.7" height="15.0" fill="rgb(252,158,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('perf_event_mmap_event (1 samples, 0.02%)')" onmouseout="c()">
+<title>perf_event_mmap_event (1 samples, 0.02%)</title><rect x="23.3" y="1905" width="0.2" height="15.0" fill="rgb(250,40,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (15 samples, 0.31%)')" onmouseout="c()">
+<title>[unknown] (15 samples, 0.31%)</title><rect x="18.8" y="2001" width="3.7" height="15.0" fill="rgb(244,129,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1633" width="6.4" height="15.0" fill="rgb(229,139,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__clone (1 samples, 0.02%)')" onmouseout="c()">
+<title>__clone (1 samples, 0.02%)</title><rect x="15.7" y="209" width="0.2" height="15.0" fill="rgb(226,49,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_erase (1 samples, 0.02%)')" onmouseout="c()">
+<title>rb_erase (1 samples, 0.02%)</title><rect x="236.3" y="1857" width="0.2" height="15.0" fill="rgb(240,190,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('system_call_fastpath (4 samples, 0.08%)')" onmouseout="c()">
+<title>system_call_fastpath (4 samples, 0.08%)</title><rect x="16.4" y="1985" width="1.0" height="15.0" fill="rgb(245,151,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (1 samples, 0.02%)')" onmouseout="c()">
+<title>[unknown] (1 samples, 0.02%)</title><rect x="10.0" y="113" width="0.2" height="15.0" fill="rgb(240,130,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (1,419 samples, 29.54%)')" onmouseout="c()">
+<title>_raw_spin_lock (1,419 samples, 29.54%)</title><rect x="553.2" y="1921" width="348.6" height="15.0" fill="rgb(210,75,29)" rx="2" ry="2" />
+<text text-anchor="" x="556.198001249219" y="1931.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >_raw_spin_lock</text>
+</g>
+<g class="func_g" onmouseover="s('__lll_lock_wait (1 samples, 0.02%)')" onmouseout="c()">
+<title>__lll_lock_wait (1 samples, 0.02%)</title><rect x="22.5" y="2017" width="0.3" height="15.0" fill="rgb(241,44,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('drop_futex_key_refs.isra.13 (3 samples, 0.06%)')" onmouseout="c()">
+<title>drop_futex_key_refs.isra.13 (3 samples, 0.06%)</title><rect x="427.7" y="1905" width="0.7" height="15.0" fill="rgb(239,84,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="977" width="6.4" height="15.0" fill="rgb(213,202,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('do_execve_common.isra.30 (8 samples, 0.17%)')" onmouseout="c()">
+<title>do_execve_common.isra.30 (8 samples, 0.17%)</title><rect x="19.1" y="1873" width="2.0" height="15.0" fill="rgb(221,213,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1361" width="6.4" height="15.0" fill="rgb(215,155,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="497" width="6.4" height="15.0" fill="rgb(210,203,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('native_write_msr_safe (18 samples, 0.37%)')" onmouseout="c()">
+<title>native_write_msr_safe (18 samples, 0.37%)</title><rect x="11.0" y="33" width="4.4" height="15.0" fill="rgb(233,210,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="1969" width="6.4" height="15.0" fill="rgb(236,138,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('[unknown] (26 samples, 0.54%)')" onmouseout="c()">
+<title>[unknown] (26 samples, 0.54%)</title><rect x="10.0" y="513" width="6.4" height="15.0" fill="rgb(240,54,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('tick_do_update_jiffies64 (1 samples, 0.02%)')" onmouseout="c()">
+<title>tick_do_update_jiffies64 (1 samples, 0.02%)</title><rect x="1189.0" y="1905" width="0.3" height="15.0" fill="rgb(205,10,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('handle_irq (1 samples, 0.02%)')" onmouseout="c()">
+<title>handle_irq (1 samples, 0.02%)</title><rect x="249.3" y="1841" width="0.2" height="15.0" fill="rgb(211,80,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('apic_timer_interrupt (2 samples, 0.04%)')" onmouseout="c()">
+<title>apic_timer_interrupt (2 samples, 0.04%)</title><rect x="1189.0" y="1985" width="0.5" height="15.0" fill="rgb(237,4,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__bitmap_empty (1 samples, 0.02%)')" onmouseout="c()">
+<title>__bitmap_empty (1 samples, 0.02%)</title><rect x="17.1" y="1873" width="0.3" height="15.0" fill="rgb(211,171,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock (586 samples, 12.20%)')" onmouseout="c()">
+<title>_raw_spin_lock (586 samples, 12.20%)</title><rect x="264.8" y="1905" width="143.9" height="15.0" fill="rgb(227,89,38)" rx="2" ry="2" />
+<text text-anchor="" x="267.769935457006" y="1915.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >_raw_spin_lock</text>
+</g>
+<g class="func_g" onmouseover="s('find_attach (1 samples, 0.02%)')" onmouseout="c()">
+<title>find_attach (1 samples, 0.02%)</title><rect x="19.3" y="1809" width="0.3" height="15.0" fill="rgb(212,35,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('_raw_spin_lock_irq (7 samples, 0.15%)')" onmouseout="c()">
+<title>_raw_spin_lock_irq (7 samples, 0.15%)</title><rect x="154.0" y="1873" width="1.7" height="15.0" fill="rgb(238,116,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('rb_insert_color (4 samples, 0.08%)')" onmouseout="c()">
+<title>rb_insert_color (4 samples, 0.08%)</title><rect x="1019.7" y="1761" width="1.0" height="15.0" fill="rgb(214,229,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('__do_softirq (1 samples, 0.02%)')" onmouseout="c()">
+<title>__do_softirq (1 samples, 0.02%)</title><rect x="901.6" y="1825" width="0.2" height="15.0" fill="rgb(252,218,18)" rx="2" ry="2" />
+</g>
+</svg>
