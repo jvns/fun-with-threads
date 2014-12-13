@@ -2,7 +2,7 @@ use std::sync::Arc;
 use std::sync::atomic::{AtomicUint, Relaxed};
 
 const NUM_THREADS: uint = 20;
-const NUM_INCREMENTS: uint = 100000u;
+const NUM_INCREMENTS: uint = 1000000u;
 
 fn main() {
     let counter = Arc::new(AtomicUint::new(0));
