@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define NUM_THREADS     20
+#define NUM_INCREMENTS  1000000
 
 int counter;
 
 void *AddThings(void *threadid)
 {
-   for (int i = 0; i < 10000000; i++)
+   for (int i = 0; i < NUM_INCREMENTS; i++)
         counter += 1;
    pthread_exit(NULL);
 }
